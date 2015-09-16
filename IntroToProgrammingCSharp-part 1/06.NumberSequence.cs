@@ -3,6 +3,8 @@
 Write a program to print the numbers 1, 101 and 1001, each at a separate line.
 Name the program correctly.
 */
+using System;
+
 public class NumberSequence
 {
     public static void Main()

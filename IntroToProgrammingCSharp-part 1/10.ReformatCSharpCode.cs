@@ -30,7 +30,7 @@ i++)
 }
 */
 
-System;
+using System;
 
      class hoRRiblEcoDe
     {
