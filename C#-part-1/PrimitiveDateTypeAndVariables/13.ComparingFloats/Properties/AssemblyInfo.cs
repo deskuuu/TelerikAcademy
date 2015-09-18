@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("13.fef")]
+[assembly: AssemblyTitle("13.ComparingFloat")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("13.fef")]
+[assembly: AssemblyProduct("13.ComparingFloat")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2d91a716-f76a-441b-91a0-4e5b367f059c")]
+[assembly: Guid("86c725f4-1d08-43d2-a681-f6f69fbec35e")]
 
 // Version information for an assembly consists of the following four values:
 //

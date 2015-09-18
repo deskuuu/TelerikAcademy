@@ -13,18 +13,24 @@ Number a	Number b	Equal (with precision eps=0.000001)	Explanation
 -4.999999	-4.999998	false	Border case. The difference 0.000001 == eps. We consider the numbers are different.
 4.999999	4.999998	false	Border case. The difference 0.000001 == eps. We consider the numbers are different.
 */
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-  class ComparingFloats
+
+    class ComparingFloats
     {
         static void Main(string[] args)
         {
-            
-        }
+        Console.WriteLine("Please enter your first floating-point number :");
+        double firstNumber = double.Parse(Console.ReadLine());
+        Console.WriteLine("Please enter your second floating-point number :");
+        double secondNumber = double.Parse(Console.ReadLine());
+
+        bool compares = (firstNumber - secondNumber) < 0.000001;
+        Console.WriteLine("{0} {1}", "Are they equal? -->", compares);
     }
+}
 
