@@ -17,7 +17,7 @@ using System;
         static void Main(string[] args)
         {
 
-        Console.WriteLine("Write a integer number:");
+        Console.WriteLine("Write an integer number:");
         int number = int.Parse(Console.ReadLine());
         Console.WriteLine("Write a postion of the bit:");
         int positionOfBit = int.Parse(Console.ReadLine());
