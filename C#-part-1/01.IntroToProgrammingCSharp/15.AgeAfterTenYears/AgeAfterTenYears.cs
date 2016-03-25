@@ -4,15 +4,14 @@ Write a program to read your birthday from the console and print how old you are
 */
 
 using System;
-
 class AfterTenYears
 {
     static void Main()
     {
-        Console.WriteLine("Write your age :");
-        byte age = byte.Parse(Console.ReadLine());
-        int afterTenYears = age + 10;
-        Console.WriteLine("{0}{1}", "After ten years you will be ",afterTenYears);
+            DateTime ageNow = DateTime.Parse(Console.ReadLine());
+            DateTime now = DateTime.Now;
+            TimeSpan age = (now.Subtract(ageNow));
+            Console.WriteLine("{0}\n{1}", new DateTime(age.Ticks).Year -1, (new DateTime(age.Ticks).Year - 1)+10);
     }
 }
 
