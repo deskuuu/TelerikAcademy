@@ -5,10 +5,9 @@ Declare the variables needed to keep the information for a single bank account u
 */
 
 using System;
-
-    class BankAccountData
+class BankAccountData
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string firstName;
             string middleName;
@@ -20,9 +19,9 @@ using System;
             ulong secondCreditCard;
             ulong thirdCreditCard;
             
-            firstName = "Desi";
+            firstName = "Lisa";
             middleName = "At";
-            lastName = "Manova";
+            lastName = "Simpson";
             balance = 5000;
             bankName = "UniCredit";
             ibn = "Uni85634";
