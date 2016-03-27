@@ -13,5 +13,5 @@ class VariableInHexadecimalFormat
             int hexadecimal = 0xFE;
             Console.WriteLine(hexadecimal);
         }
-    }
+}
 
