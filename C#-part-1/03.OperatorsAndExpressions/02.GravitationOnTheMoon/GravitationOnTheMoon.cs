@@ -5,7 +5,7 @@ Write a program that calculates the weight of a man on the moon by a given weigh
 using System;
 class GravitationOnTheMoon
 {
-     static void Main(string[] args)
+     static void Main()
      {
          Console.WriteLine("Please write your weight :");
          float weight = float.Parse(Console.ReadLine());
