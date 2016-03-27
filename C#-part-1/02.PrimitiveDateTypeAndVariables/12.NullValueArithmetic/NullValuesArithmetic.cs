@@ -6,10 +6,9 @@ Try to add some number or the null literal to these variables and print the resu
 */
 
 using System;
-
 class NullValuesArithmetic
 {
-        static void Main(string[] args)
+        static void Main()
         {
             int? nullValueOne = null;
             double? nullValueTwo = null;
@@ -19,5 +18,5 @@ class NullValuesArithmetic
             Console.WriteLine(nullValueOne.GetValueOrDefault());
             
         }
-    }
+}
 
