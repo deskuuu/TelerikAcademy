@@ -4,10 +4,9 @@ Write a program to print the numbers 1, 101 and 1001, each at a separate line.
 Name the program correctly.
 */
 using System;
-
 class NumberSequence
 {
-    static void Main(string[] args)
+    static void Main()
     {
         System.Console.WriteLine("1\n101\n1001");
     }
