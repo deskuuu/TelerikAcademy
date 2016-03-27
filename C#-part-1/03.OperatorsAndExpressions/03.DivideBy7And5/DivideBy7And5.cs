@@ -7,17 +7,18 @@ by 7 and 5. Otherwise prints "false NUMBER". In place of NUMBER print the value 
 */
 using System;
 class DivideBy7And5
+{
+    static void Main()
     {
-        static void Main()
-        {
-            int n = int.Parse(Console.ReadLine());
-         	bool isDividedByBoth = false;
-         	
-         	if (n % 7 == 0 && n % 5 == 0)
-         	{
-         		isDividedByBoth = true;
-         	}
-         	Console.WriteLine("{0} {1}", isDividedByBoth, n);
-        }
-    }
+        int n = int.Parse(Console.ReadLine());
+     	bool isDividedByBoth = false;
+     	
+     	if (n % 7 == 0 && n % 5 == 0)
+     	{
+     		isDividedByBoth = true;
+     	}
+     	Console.WriteLine("{0} {1}", isDividedByBoth, n);
+   }
+    
+}
 
