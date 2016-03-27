@@ -1,34 +1,23 @@
 ﻿/*Problem 1. Odd or Even Integers
 
-Write an expression that checks if given integer is odd or even.
-Examples:
-
-n	Odd?
-3	true
-2	false
--2	false
--1	true
-0	false
+Write a program that reads an integer from the console, uses an expression to check if given integer is odd or even,
+and prints "even NUMBER" or "odd NUMBER", where you should print the input number's value instead of NUMBER.
 */
 using System;
-
-  class OddOrEvenIntegers
+class OddOrEvenIntegers
     {
-        static void Main(string[] args)
+        static void Main()
         {
-        Console.WriteLine("Write an integer.");
-        int number = int.Parse(Console.ReadLine());
+             Console.WriteLine("Write an integer.");
+             int number = int.Parse(Console.ReadLine());
 
-        if (number % 2 == 0)
-        {
-            Console.WriteLine("The integer is even.");
-        }
-        else
-        {
-            Console.WriteLine("The integere is odd.");
-        }
-
-
+             if (number % 2 == 0)
+             {
+                 Console.WriteLine("even {0}", number);
+             }
+             else
+             {
+                 Console.WriteLine("odd {0}", number);
+             }
+         }
     }
- }
-
