@@ -8,7 +8,7 @@ using System;
 
 class ExchangeVariableValues
 {
-        static void Main(string[] args)
+        static void Main()
         {
             int a = 5;
             int b = 10;
@@ -19,5 +19,5 @@ class ExchangeVariableValues
             Console.WriteLine(a);
             Console.WriteLine(b);
         }
-    }
+ }
 
