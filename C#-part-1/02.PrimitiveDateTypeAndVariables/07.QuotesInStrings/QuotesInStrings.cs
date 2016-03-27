@@ -6,10 +6,9 @@ Print the variables to ensure that their value was correctly defined.
 */
 
 using System;
-
-    class QuotesInStrings
+class QuotesInStrings
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string escaping= "The \"use\" of quotations causes difficulties.";
             string doubleQu = @"The ""use"" of quotations causes difficulties.";
