@@ -4,11 +4,9 @@ Declare a character variable and assign it with the symbol that has Unicode code
 Hint: first, use the Windows Calculator to find the hexadecimal representation of 42. The output should be *.
 */
 using System;
-
-
-    class UnicodeCharacter
+class UnicodeCharacter
     {
-        static void Main(string[] args)
+        static void Main()
         {
             char symbolOne = '\u002A';
             Console.WriteLine((char)(symbolOne));
