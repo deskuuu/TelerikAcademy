@@ -7,7 +7,7 @@ class IsPrime
 {
     static void Main()
     {
-    	   Console.WriteLine("Write a width :");
+    	 Console.WriteLine("Write a width :");
          double width = double.Parse(Console.ReadLine());
          Console.WriteLine("Write a height :");
          double height = double.Parse(Console.ReadLine());
