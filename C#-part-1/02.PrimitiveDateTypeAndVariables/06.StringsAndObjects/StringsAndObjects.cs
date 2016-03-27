@@ -6,10 +6,9 @@ Declare a third string variable and initialize it with the value of the object v
 */
 
 using System;
-
-    class StringsAndObjects
+class StringsAndObjects
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string hello = "Hello";
             string world = "World";
