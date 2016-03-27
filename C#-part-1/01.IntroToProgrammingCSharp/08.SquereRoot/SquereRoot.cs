@@ -4,10 +4,9 @@ Create a console application that calculates and prints the square root of the n
 Find in Internet “how to calculate square root in C#”.
 */
 using System;
-
 class SquereRoot
 {
-    static void Main(string[] args)
+    static void Main()
     {
         System.Console.WriteLine(Math.Sqrt(12345));
     }
