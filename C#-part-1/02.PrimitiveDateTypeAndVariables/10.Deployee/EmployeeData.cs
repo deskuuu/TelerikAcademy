@@ -12,11 +12,9 @@ Declare the variables needed to keep the information for a single employee using
 */
 
 using System;
-
-
-    class EmployeeData
+class EmployeeData
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string firstName;
             string lastName;
@@ -24,14 +22,13 @@ using System;
             string idNumber;
             uint employeeNumber;
             
-            firstName = "Desi";
-            lastName = "Manova";
+            firstName = "Lisa";
+            lastName = "Simpson";
             age = 19;
             idNumber = "8306112507";
             employeeNumber =27560000;
             Console.WriteLine("{0} {1}\n{2}\n{3}\n{4}", firstName,lastName,age,idNumber,employeeNumber);
-            
-            
+
         }
     }
 
