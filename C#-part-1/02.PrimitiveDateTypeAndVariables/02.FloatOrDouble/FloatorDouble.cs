@@ -5,21 +5,15 @@ Write a program to assign the numbers in variables and print them to ensure no p
 */
 
 using System;
-
-
-    class FloatOrDouble
+class FloatOrDouble
     {
-        static void Main(string[] args)
+        static void Main()
         {
-           double first = 34.567839023;
-           float second = 12.345F;
-           float third = 8923.1234857F;
-           float fourth = 3456.091F;
-           Console.WriteLine(first);
-           Console.WriteLine(second);
-           Console.WriteLine(third);
-           Console.WriteLine(fourth);  
-           
+           double first = 34.567839023d;
+           float second = 12.345f;
+           float third = 8923.1234857f;
+           float fourth = 3456.091f;
+           Console.WriteLine("{0}\n{1}\n{2}\n{3}", first, second,third, fourth);
            
         }
     }
