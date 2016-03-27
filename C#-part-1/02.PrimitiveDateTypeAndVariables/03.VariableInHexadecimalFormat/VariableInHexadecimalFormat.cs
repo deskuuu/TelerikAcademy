@@ -6,11 +6,9 @@ Print the variable and ensure that the result is 254.
 */
 
 using System;
-
-
-    class VariableInHexadecimalFormat
+class VariableInHexadecimalFormat
 {
-        static void Main(string[] args)
+        static void Main()
         {
             int hexadecimal = 0xFE;
             Console.WriteLine(hexadecimal);
