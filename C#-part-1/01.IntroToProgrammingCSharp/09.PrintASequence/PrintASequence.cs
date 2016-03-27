@@ -4,10 +4,9 @@ Write a program that prints the first 10 members of the sequence: 2, -3, 4, -5, 
 */
 
 using System;
-
 class PrintASequence
 {
-    static void Main(string[] args)
+    static void Main()
     {
         for (int i = 2; i < 12; i++)
         {
