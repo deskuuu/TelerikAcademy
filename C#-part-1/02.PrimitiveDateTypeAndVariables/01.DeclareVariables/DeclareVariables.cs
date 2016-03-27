@@ -4,22 +4,16 @@ Declare five variables choosing for each of them the most appropriate of the typ
 Choose a large enough type for each number to ensure it will fit in it. Try to compile the code.
 */
 using System;
-
-
-    class DeclareVariables
+class DeclareVariables
     {
-        static void Main(string[] args)
+        static void Main()
         {
             ushort first =  52130;
             sbyte second = -115;
             uint third = 4825932;
             sbyte fourth = 97;
             short fifth = -10000;
-            Console.WriteLine(first);
-            Console.WriteLine(second);
-            Console.WriteLine(third);
-            Console.WriteLine(fourth);
-            Console.WriteLine(fifth);
+            Console.WriteLine("{0}\n{1}\n{2}\n{3}\n{4}", first, second,third, fourth, fifth);
         }
     }
 
