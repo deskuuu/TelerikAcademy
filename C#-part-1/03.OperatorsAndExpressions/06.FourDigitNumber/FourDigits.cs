@@ -21,9 +21,9 @@ class FourDigitNumber
              
          if (d == 0)
          {
-         	  Console.WriteLine(a + b + c + d); 
-	       Console.WriteLine("{0}{1}{2}", c, b, a); 
-         	  Console.WriteLine("{0}{1}{2}", a, b, c); 
+            Console.WriteLine(a + b + c + d); 
+	    Console.WriteLine("{0}{1}{2}", c, b, a); 
+            Console.WriteLine("{0}{1}{2}", a, b, c); 
             Console.WriteLine("{0}{1}{2}", c, b, d); 
          }
          else
