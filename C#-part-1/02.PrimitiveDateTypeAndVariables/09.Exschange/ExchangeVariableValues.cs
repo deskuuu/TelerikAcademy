@@ -4,8 +4,6 @@ Declare two integer variables a and b and assign them with 5 and 10 and after th
 Print the variable values before and after the exchange.*/
 
 using System;
-
-
 class ExchangeVariableValues
 {
         static void Main()
@@ -19,5 +17,5 @@ class ExchangeVariableValues
             Console.WriteLine(a);
             Console.WriteLine(b);
         }
- }
-
+        
+}
