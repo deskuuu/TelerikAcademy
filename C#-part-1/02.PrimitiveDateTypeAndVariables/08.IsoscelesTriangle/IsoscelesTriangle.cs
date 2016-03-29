@@ -7,7 +7,6 @@ Write a program that prints an isosceles triangle of 9 copyright symbols ©, som
 */
 
 using System;
-using System.Collections.Generic;
 class IsoscelesTriangle
 {
     static void Main()
