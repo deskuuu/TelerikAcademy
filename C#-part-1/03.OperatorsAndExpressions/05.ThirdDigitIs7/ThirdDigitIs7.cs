@@ -10,6 +10,15 @@ class ThirdDigit
          int number = int.Parse(Console.ReadLine());
          int digit = (number / 100) % 10;
          bool lastDigitIsSeven = digit == 7;
-         Console.WriteLine("{0} {1}",lastDigitIsSeven, digit);
+         
+         if (lastDigitIsSeven)
+         {
+         	  Console.WriteLine(lastDigitIsSeven);
+         }
+         else
+         {
+            Console.WriteLine("{0} {1}",lastDigitIsSeven, digit);
+         }
+         
      }
 }
