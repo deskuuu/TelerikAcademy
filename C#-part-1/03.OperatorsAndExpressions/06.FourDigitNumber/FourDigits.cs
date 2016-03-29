@@ -12,23 +12,27 @@ class FourDigitNumber
 {
      static void Main()
      {
-         Console.WriteLine("Enter a four-digit number like 2011 :");
          int number = int.Parse(Console.ReadLine());
 
          int d = number % 10;
          int c = (number / 10) % 10;
          int b = (number / 100) % 10;
          int a = (number / 1000) % 10;
-
-         while (number < 1000 || number > 9999)
+             
+         if (d == 0)
          {
-             Console.WriteLine("Try again!(Number shoul be 4-digit.)");
-             number = int.Parse(Console.ReadLine());
+         	  Console.WriteLine(a + b + c + d); 
+	       Console.WriteLine("{0}{1}{2}", c, b, a); 
+         	  Console.WriteLine("{0}{1}{2}", a, b, c); 
+            Console.WriteLine("{0}{1}{2}", c, b, d); 
          }
-         Console.WriteLine(a + b + c + d); //Sum the number
-         Console.WriteLine("{0}{1}{2}{3}", d, c, b, a); //Reserve
-         Console.WriteLine("{0}{1}{2}{3}", d, a, b, c); //Last become first
-         Console.WriteLine("{0}{1}{2}{3}", a, c, b, d); //Exchanges the second and the third digits
+         else
+         {
+            Console.WriteLine(a + b + c + d);
+            Console.WriteLine("{0}{1}{2}{3}", d, c, b, a); 
+            Console.WriteLine("{0}{1}{2}{3}", d, a, b, c); 
+            Console.WriteLine("{0}{1}{2}{3}", a, c, b, d); 
+         }
+     
      }
 }
-
