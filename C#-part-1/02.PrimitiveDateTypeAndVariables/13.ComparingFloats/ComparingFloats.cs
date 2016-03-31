@@ -8,13 +8,11 @@ class ComparingFloats
 {
     static void Main()
     {
-        Console.WriteLine("Please enter your first floating-point number :");
         double firstNumber = double.Parse(Console.ReadLine());
-        Console.WriteLine("Please enter your second floating-point number :");
         double secondNumber = double.Parse(Console.ReadLine());
 
         bool compares = (firstNumber - secondNumber) < 0.000001;
-        Console.WriteLine("{0} {1}", "Are they equal? -->", compares);
+        Console.WriteLine(compares);
     }
 }
 
