@@ -10,7 +10,7 @@ class PrintTheASCIITable
         {
              for (int i = 33; i <= 126; i++)
              {
-                Console.WriteLine("{0} = {1}", i, (char)i);
+                Console.WriteLine((char)i);
              }
         }
     }   
