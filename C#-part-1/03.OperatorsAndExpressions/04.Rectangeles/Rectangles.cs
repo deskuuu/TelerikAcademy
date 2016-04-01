@@ -7,15 +7,13 @@ class IsPrime
 {
     static void Main()
     {
-    	 Console.WriteLine("Write a width :");
          double width = double.Parse(Console.ReadLine());
-         Console.WriteLine("Write a height :");
          double height = double.Parse(Console.ReadLine());
          
          double rectangleArea = width * height;
          double rectanglePerimeter = 2 * (width + height);
          
-         Console.WriteLine("{0:f2} {1:f2}",rectanglePerimeter,rectangleArea);
+         Console.WriteLine("{0:f2} {1:f2}", rectangleArea, rectanglePerimeter);
     }
 }
      
