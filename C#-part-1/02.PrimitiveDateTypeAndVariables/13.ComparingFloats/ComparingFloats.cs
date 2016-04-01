@@ -9,10 +9,31 @@ class ComparingFloats
     static void Main()
     {
         double firstNumber = double.Parse(Console.ReadLine());
-        double secondNumber = double.Parse(Console.ReadLine());
+    	double secondNumber = double.Parse(Console.ReadLine());
+        double eps = 0.000001;
 
-        bool compares = (firstNumber - secondNumber) < 0.000001;
-        Console.WriteLine(compares);
+        if (firstNumber > secondNumber )
+        {
+        	if (firstNumber - secondNumber > eps)
+        	{
+        		Console.WriteLine("false");
+        	}
+        	else
+        	{
+        		Console.WriteLine("true");
+        	}
+        }
+        else if (secondNumber > firstNumber)
+        {
+        	if (secondNumber - firstNumber > eps)
+        	{
+        		Console.WriteLine("false");
+        	}
+        	else
+        	{
+        		Console.WriteLine("true");
+        	}
+        }
     }
 }
 
