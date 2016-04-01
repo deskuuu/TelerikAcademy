@@ -13,11 +13,11 @@ class ThirdDigit
          
          if (lastDigitIsSeven)
          {
-         	  Console.WriteLine(lastDigitIsSeven);
+            Console.WriteLine("true");
          }
          else
          {
-            Console.WriteLine("{0} {1}",lastDigitIsSeven, digit);
+            Console.WriteLine("false {0}", digit);
          }
          
      }
