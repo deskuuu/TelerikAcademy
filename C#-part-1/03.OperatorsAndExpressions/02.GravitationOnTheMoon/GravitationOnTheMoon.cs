@@ -7,17 +7,12 @@ class GravitationOnTheMoon
 {
      static void Main()
      {
-         Console.WriteLine("Please write your weight :");
          float weight = float.Parse(Console.ReadLine());
          float moonWeight = (weight * 17) / 100;
           
          if (weight > 0)
          {
-         	Console.WriteLine("Your weight on the Moon is {0:0.000} ",moonWeight);
-         }
-         else
-         {
-            Console.WriteLine("Sorry, your result is incorrect.");
+         	  Console.WriteLine("{0:0.000}",moonWeight);
          }
      }
 }
