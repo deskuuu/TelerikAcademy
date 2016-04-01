@@ -8,7 +8,6 @@ class OddOrEvenIntegers
     {
         static void Main()
         {
-             Console.WriteLine("Write an integer.");
              int number = int.Parse(Console.ReadLine());
 
              if (number % 2 == 0)
