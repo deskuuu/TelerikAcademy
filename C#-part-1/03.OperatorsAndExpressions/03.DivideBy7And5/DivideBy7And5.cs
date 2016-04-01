@@ -11,13 +11,16 @@ class DivideBy7And5
     static void Main()
     {
         int n = int.Parse(Console.ReadLine());
-     	bool isDividedByBoth = false;
      	
      	if (n % 7 == 0 && n % 5 == 0)
      	{
-     		isDividedByBoth = true;
+          Console.WriteLine("true {0}", n);
      	}
-     	Console.WriteLine("{0} {1}", isDividedByBoth, n);
+        else
+        {
+          Console.WriteLine("false {0}", n);
+        }
+        
    }
     
 }
