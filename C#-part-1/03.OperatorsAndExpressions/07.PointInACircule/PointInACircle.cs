@@ -9,12 +9,22 @@ class PointInACircule
 {
     static void Main()
     {
-        double x = double.Parse(Console.ReadLine());
-        double y = double.Parse(Console.ReadLine());
-
-        //Formula is (x-k)^2 + (y-k)^2 = r^2
-        bool isInside = ((x * x + y * y) - 2 * (x - y + x)) <= 2 * 2;
-        Console.WriteLine(isInside);
+            double x = double.Parse(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine());
+	     
+            //The formula is (x-k)^2 + (y-k)^2 = r^2
+            double point = Math.Sqrt((x * x) + (y * y));
+            bool isInside = point <= 2;
+            
+            if (isInside)
+            {
+            	 Console.WriteLine("yes {0:f2}", point);
+            }
+            else
+            {
+            	 Console.WriteLine("no {0:f2}", point);
+            }
+          
     }
 }
 
