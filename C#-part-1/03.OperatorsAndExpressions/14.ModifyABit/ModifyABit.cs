@@ -24,9 +24,7 @@ class ModifyABit
         {
             int mask1 = 1 << p;
             int result1 = n | mask1;
-
-            Console.WriteLine();
             Console.WriteLine(result1);
-            Console.WriteLine();
         }
+    }
 }
