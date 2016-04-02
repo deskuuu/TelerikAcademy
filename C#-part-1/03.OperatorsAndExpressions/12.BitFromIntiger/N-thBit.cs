@@ -10,7 +10,7 @@ class NthBit
        int number = int.Parse(Console.ReadLine());
        int positionOfBit = int.Parse(Console.ReadLine());
        
-       int bit  = number >> positionOfBit & 1;
+       int bit  = (number >> positionOfBit) & 1;
        Console.WriteLine(bit);      
     }
     
