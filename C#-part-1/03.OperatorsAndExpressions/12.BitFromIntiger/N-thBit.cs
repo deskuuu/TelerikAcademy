@@ -11,7 +11,7 @@ class NthBit
        int positionOfBit = int.Parse(Console.ReadLine());
        
        int bit  = number >> positionOfBit & 1;
-       Console.WriteLine(bit)      
+       Console.WriteLine(bit);      
     }
     
 }
