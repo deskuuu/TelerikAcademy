@@ -9,22 +9,23 @@ class PrimeNumberCheck
 {
      static void Main()
      {
-        int number = int.Parse(Console.ReadLine());
-        int divider = 2;
-        double maxDivider = Math.Sqrt(number);
-        bool Isprime = true;
-        
-        if (number <= 100)
-        {
-           while (Isprime && (divider <= maxDivider))
-           {
-              if (number % divider == 0)
-              {
-              	Isprime = false;
-              }
-              divider++;
-           }
-           Console.WriteLine(Isprime);
-        }
+        	int number = int.Parse(Console.ReadLine());
+          int k = 0;;
+     
+          for (int i = 1; i <= number; i++)
+          {
+             if (number % i == 0)
+             {
+                 k++;
+             }
+          }
+          if (k == 2)
+          {
+             Console.WriteLine("true");
+          }
+          else
+          {
+             Console.WriteLine("false");
+          }
      }
 }
