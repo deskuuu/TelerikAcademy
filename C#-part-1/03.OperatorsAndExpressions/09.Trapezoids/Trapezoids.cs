@@ -8,11 +8,8 @@ class Trapezoids
 {
    static void Main()
    {
-       Console.WriteLine("Write a small-side:");
        double a = double.Parse(Console.ReadLine());
-       Console.WriteLine("Write a big-side:");
        double b = double.Parse(Console.ReadLine());
-       Console.WriteLine("Write a height:");
        double h = double.Parse(Console.ReadLine());
        double trapArea = ((a + b) / 2) * h;
 
