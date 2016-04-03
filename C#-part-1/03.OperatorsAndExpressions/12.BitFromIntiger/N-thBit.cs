@@ -7,10 +7,10 @@ class NthBit
 {
     static void Main()
     {
-       int number = int.Parse(Console.ReadLine());
+       long number = long.Parse(Console.ReadLine());
        int positionOfBit = int.Parse(Console.ReadLine());
        
-       int bit  = (number >> positionOfBit) & 1;
+       long bit  = (number >> positionOfBit) & 1;
        Console.WriteLine(bit);      
     }
     
