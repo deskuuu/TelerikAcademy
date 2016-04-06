@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-Tables</title>
+    <style>
+        .center-pos {
+            text-align: center;
+        }
+
+        .right-pos {
+            text-align: right;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-decoration-color: #53626E;
+            padding: 1%;
+            width: 14%;
+        }
+
+        table, th, td {
+            border: inset #C8C8C8;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="3" width="70px">Title goes here</td>
+        <td class="center-pos">A</td>
+        <td class="right-pos">B</td>
+    </tr>
+    <tr>
+        <td rowspan="3" id="c">C</td>
+        <td class="center-pos">D</td>
+        <td class="center-pos">E</td>
+        <td class="center-pos">F</td>
+        <td class="right-pos">G</td>
+    </tr>
+    <tr>
+        <td class="center-pos">H</td>
+        <td colspan="2" class="center-pos">I</td>
+        <td rowspan="2" class="right-pos">J</td>
+    </tr>
+    <tr>
+        <td class="center-pos">K</td>
+        <td class="center-pos">L</td>
+        <td class="center-pos">M</td>
+    </tr>
+    <tr>
+        <td class="right-pos">N</td>
+        <td colspan="4" class="center-pos">O</td>
+    </tr>
+</table>
+</body>
+</html>
