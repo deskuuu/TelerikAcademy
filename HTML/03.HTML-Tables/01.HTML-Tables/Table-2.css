@@ -1,0 +1,22 @@
+.center-pos {
+    text-align: center;
+}
+
+.right-pos {
+    text-align: right;
+}
+
+table {
+    font-size: 80%;
+    border-collapse: collapse;
+    text-decoration-color: #53626E;
+    padding: 2%;
+    width: 14%;
+}
+
+table, th, td {
+    border: inset #C8C8C8;
+}
+#title {
+    width: 70%;
+}
