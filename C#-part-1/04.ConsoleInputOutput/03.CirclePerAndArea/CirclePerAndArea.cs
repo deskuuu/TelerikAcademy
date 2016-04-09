@@ -8,20 +8,14 @@ r	perimeter	area
 3.5	21.99	38.48
 */
 using System;
-
-    class CirclePerAndArea
+class CirclePerAndArea
+{
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Enter a circle radius:");
         double radius = double.Parse(Console.ReadLine());
         double area = (double) Math.PI * radius * radius;
         double perimeter = 2 * (double) Math.PI * radius;
-        Console.WriteLine("The perimeter is:");
-        Console.WriteLine("{0:0.00}", perimeter);
-        Console.WriteLine("The area is :");
-        Console.WriteLine("{0:0.00}", area);
-       
+        Console.WriteLine("{0:F2} {1:F2}", perimeter, area);
     }
  }
 
