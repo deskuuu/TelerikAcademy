@@ -5,32 +5,21 @@ Write a program that reads the information about a company and its manager and p
 */
 
 using System;
-class Program
+class CompanyInfo
     {
         static void Main()
         {
-          Console.WriteLine("Enter a company name:");
           string companyName = Console.ReadLine();
-          Console.WriteLine("Enter a company address:");
           string companyAddress = Console.ReadLine();
-          Console.WriteLine("Enter a company phone number(10 digits):");
-          string companyNumber= Console.ReadLine();
-          Console.WriteLine("Enter a company fax number:");
-          string companyFax = null;
-          Console.WriteLine("Enter a web site:");
+          string companyPhone= Console.ReadLine();
+          string companyFax = string.Empty;
           string webSite = Console.ReadLine();
-
-          Console.WriteLine("Enter a manager first name:");
           string managerFirstName = Console.ReadLine();
-          Console.WriteLine("Enter a manager last name:");
           string managerLastName = Console.ReadLine();
-          Console.WriteLine("Enter a manager age:");
-          byte managerAge = byte.Parse(Console.ReadLine());
-          Console.WriteLine("Enter a manager number phone:");
-          string managerNumber = Console.ReadLine();
+          int managerAge = int.Parse(Console.ReadLine());
+          string managerPhone = Console.ReadLine();
 
-          Console.WriteLine(" Company name- {0}\n Company address- {1}\n Company number- {2}\n Company fax- {3}\n Web sait- {4}\n Manager first name- {5}\n Manager last name- {6}\n Manager age- {7}\n Manager number- {8}\n",companyName,companyAddress,companyNumber,companyFax,webSite,managerFirstName,managerLastName,managerAge,managerNumber);
-   
+          Console.WriteLine("{0}\nAddress: {1}\nTel. {2}\nFax: (no fax){3}\nWeb site: {4}\nManager: {5} {6} (age: {7}, tel. {8})",companyName,companyAddress,companyPhone,companyFax,webSite,managerFirstName,managerLastName,managerAge,managerPhone);
     }
 }
 
