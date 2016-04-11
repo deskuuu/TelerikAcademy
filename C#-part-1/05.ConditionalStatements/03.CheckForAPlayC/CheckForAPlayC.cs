@@ -1,28 +1,18 @@
 ﻿/*Problem 3. Check for a Play Card
 
-Classical play cards use the following signs to designate the card face: `2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K and A. Write a program that enters a string and prints “yes” if it is a valid card sign or “no” otherwise. Examples:
-character	Valid card sign?
-5	yes
-1	no
-Q	yes
-q	no
-P	no
-10	yes
-500	no
+Classical play cards use the following signs to designate the card face: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K and A. 
+Write a program that enters a string and prints "yes CONTENT_OF_STRING" if it is a valid card sign or "no CONTENT_OF_STRING" otherwise.
 */
 
 using System;
-
 class CheckForAPlayC
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Enter a string for check :");
         string check = Console.ReadLine();
-
+        
         switch (check)
         {
-
             case "2":
             case "3":
             case "4":
@@ -36,12 +26,11 @@ class CheckForAPlayC
             case "Q":
             case "K":
             case "A":
-                Console.WriteLine("yes");
+                Console.WriteLine("yes {}", check);
                 break;
             default:
-                Console.WriteLine("no");
+                Console.WriteLine("no {0}", check);
                 break;
-
         }
 
     }
