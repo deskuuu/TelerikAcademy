@@ -4,27 +4,26 @@ Write a program that converts a number in the range [0…999] to words, correspo
 */
 
 using System;
-
 class NumberAsWord
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.WriteLine("Enter a number[0-999]:");
         int number = int.Parse(Console.ReadLine());
         string asWord;
-            
-            switch (number)
-            {
-                case 0: asWord = "zero"; break;
-                case 1: asWord = "one"; break;
-                case 2: asWord = "two"; break;
-                case 3: asWord = "three"; break;
-                case 4: asWord = "four"; break;
-                case 5: asWord = "five"; break;
-                case 6: asWord = "six"; break;
-                case 7: asWord = "seven"; break;
-                case 8: asWord = "eight"; break;
-                case 9: asWord = "nine"; break;
+        
+        witch (number)
+        {
+            case 0: asWord = "zero"; break;
+            case 1: asWord = "one"; break;
+            case 2: asWord = "two"; break;
+            case 3: asWord = "three"; break;
+            case 4: asWord = "four"; break;
+            case 5: asWord = "five"; break;
+            case 6: asWord = "six"; break;
+            case 7: asWord = "seven"; break;
+            case 8: asWord = "eight"; break;
+            case 9: asWord = "nine"; break;
             case 10:asWord = "ten";break;
             case 20:asWord = "twenty";break;
             case 30:asWord = "thirty";break;
@@ -40,12 +39,8 @@ class NumberAsWord
             case 725: asWord = "seven hundred and twenty-five"; break;
             case 850: asWord = "eight hundred and fifty"; break;
             case 999: asWord = "nine hundred and ninety-nine"; break;
-
-            default: asWord = "some number";break;
-
-               
+                    default: asWord = "some number";break;
             }
             Console.WriteLine("{0}",asWord);
         }
     }
-
