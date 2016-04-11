@@ -8,11 +8,10 @@ Note: You may need to learn how to parse dates and times.using System;
 */
 
 using System;
-
-    class Program
+class Program
+{
+    static void Main()
     {
-        static void Main(string[] args)
-        {
         Console.WriteLine("Enter a time in format hh:mm PM or AM");
         DateTime time = DateTime.Parse(Console.ReadLine());
         DateTime startBeerTime = DateTime.Parse("1:00 PM");
@@ -32,6 +31,5 @@ using System;
         {
             Console.WriteLine("Sorry it`s non a beer time,you can try tomorrow");
         }
-     }
-  }
-
+    }
+}
