@@ -17,30 +17,31 @@ class FibonacciNumbers
         
         if (n == 1)
         {
-        Console.WriteLine(firstNumber);
-            return;
+           Console.WriteLine(firstNumber);
+           return;
         }
         else if (n == 2)
         {
-        Console.WriteLine(firstNumber + ", " + secondNumber);
-            return;
+           Console.WriteLine(firstNumber + ", " + secondNumber);
+           return;
         }
         Console.Write(firstNumber + ", " + secondNumber + ", ");
 
         for (i = 2; i < n - 1; i++)
         {
-            temp = firstNumber + secondNumber;
-            Console.Write(temp + ", ");
-            firstNumber = secondNumber;
-            secondNumber = temp;
+           temp = firstNumber + secondNumber;
+           Console.Write(temp + ", ");
+           firstNumber = secondNumber;
+           secondNumber = temp;
         }
         i++;
+        
         temp = firstNumber + secondNumber;
+        
         if (i == n)
         {
-        Console.Write(temp);
+           Console.Write(temp);
         }
         Console.WriteLine();
-
     }
 }
