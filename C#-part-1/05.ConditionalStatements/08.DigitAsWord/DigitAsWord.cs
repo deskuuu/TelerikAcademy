@@ -7,24 +7,24 @@ class DigitAsWord
 {
     static void Main()
     {
-        int digit = int.Parse(Console.ReadLine());
+        string digit = Console.ReadLine();
         string asWord;
-        
+
         switch (digit)
         {
-            case 0: asWord = "zero"; break;
-            case 1: asWord = "one"; break;
-            case 2: asWord = "two"; break;
-            case 3: asWord = "three"; break;
-            case 4: asWord = "four"; break;
-            case 5: asWord = "five"; break;
-            case 6: asWord = "six"; break;
-            case 7: asWord = "seven"; break;
-            case 8: asWord = "eight"; break;
-            case 9: asWord = "nine"; break;
-                   default: asWord = "not a digit"; break;
+            case "0": asWord = "zero"; break;
+            case "1": asWord = "one"; break;
+            case "2": asWord = "two"; break;
+            case "3": asWord = "three"; break;
+            case "4": asWord = "four"; break;
+            case "5": asWord = "five"; break;
+            case "6": asWord = "six"; break;
+            case "7": asWord = "seven"; break;
+            case "8": asWord = "eight"; break;
+            case "9": asWord = "nine"; break;
+            default: asWord = "not a digit"; break;
         }
         Console.WriteLine(asWord);
     }
-    
+
 }
