@@ -26,7 +26,7 @@ class CheckForAPlayC
             case "Q":
             case "K":
             case "A":
-                Console.WriteLine("yes {}", check);
+                Console.WriteLine("yes {0}", check);
                 break;
             default:
                 Console.WriteLine("no {0}", check);
