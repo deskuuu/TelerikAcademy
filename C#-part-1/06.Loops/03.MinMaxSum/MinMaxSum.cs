@@ -26,10 +26,10 @@ class MinMaxSumAvg
 
         foreach (int number in numbers)
         {
-        	min = numbers.First();
-        	max = numbers.Last();
-        	sum = numbers.Sum(x => Convert.ToInt32(x));;
-        	avg = (double)sum / n;
+           min = numbers.First();
+           max = numbers.Last();
+           sum = numbers.Sum(x => Convert.ToInt32(x));;
+           avg = (double)sum / n;
         }
         
         Console.WriteLine("min={0}", min);
