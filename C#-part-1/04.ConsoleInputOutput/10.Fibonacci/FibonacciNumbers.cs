@@ -14,6 +14,16 @@ class FibonacciNumbers
         BigInteger secondNumber = 1;
         BigInteger temp = 0;
         int i =  2;
+        if (n == 1)
+        {
+        	Console.WriteLine(firstNumber);
+            return;
+        }
+        else if (n == 2)
+        {
+        	Console.WriteLine(firstNumber + ", " + secondNumber);
+        }
+        
         Console.Write(firstNumber + ", " + secondNumber + ", ");
 
         for (i = 2; i < n - 1; i++)
@@ -30,5 +40,6 @@ class FibonacciNumbers
         	 Console.Write(temp);
         }
         Console.WriteLine();
+
     }
 }
