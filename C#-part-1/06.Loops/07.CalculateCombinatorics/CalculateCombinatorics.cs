@@ -7,7 +7,7 @@ using System.Numerics;
 class CalculateCombinatorics
 {
   static BigInteger SumFactorial(int n)
-	{
+  {
     BigInteger result = 1;
     while (true)
     {
@@ -19,10 +19,10 @@ class CalculateCombinatorics
       n--;
     }
     return result;
-	}
+  }
     static void Main()
     {
-    	int n = int.Parse(Console.ReadLine());
+      int n = int.Parse(Console.ReadLine());
       int k = int.Parse(Console.ReadLine());
     	
       BigInteger sum = SumFactorial(n) / (SumFactorial(k) * SumFactorial(n-k));
