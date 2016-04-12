@@ -18,8 +18,8 @@ class MinMaxSumAvg
 
         for (int i = 0; i < n; i++)
         {
-          num = int.Parse(Console.ReadLine());
-          numbers.Add(num);
+           num = int.Parse(Console.ReadLine());
+           numbers.Add(num);
         }
         
         numbers.Sort();
