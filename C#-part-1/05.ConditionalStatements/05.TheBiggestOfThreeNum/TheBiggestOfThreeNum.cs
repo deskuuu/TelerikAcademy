@@ -4,26 +4,27 @@ Write a program that finds the biggest of three numbers.
 */
 
 using System;
-class TheBiggestOfThreeNum
+using System.Collections.Generic;
+using System.Linq;
+class MultiplicationSign
 {
     static void Main()
     {
         double a = double.Parse(Console.ReadLine());
         double b = double.Parse(Console.ReadLine());
         double c = double.Parse(Console.ReadLine());
+        double max = 0;
 
-        if (a > b || a > c)
+        List<double> numbers = new List<double>();
+        numbers.Add(a);
+        numbers.Add(b);
+        numbers.Add(c);
+
+        numbers.Sort();
+        foreach (double number in numbers)
         {
-            Console.WriteLine(a);
+            max = numbers.Last();
         }
-        else if (a < b || b > c)
-        {
-            Console.WriteLine(b);
-        }
-        else
-        {
-            Console.WriteLine(c);
-        }
+        Console.WriteLine(max);
     }
 }
-
