@@ -13,27 +13,26 @@ class BonusScore
     static void Main()
     {
         int score = int.Parse(Console.ReadLine());
-        int bonus = 0;
+        decimal bonus = 0;
 
-        if (score < 0)
+        if (score <= 0 || score > 9)
         {
             Console.WriteLine("invalid score");
         }
-        else  if ((score >= 1) && (score <= 3))
+        else if ((score >= 1) && (score <= 3))
         {
             bonus = score * 10;
             Console.WriteLine(bonus);
         }
-        else if ((score <= 4) && (score <= 6))
+        else if ((score >= 4) && (score <= 6))
         {
             bonus = score * 100;
             Console.WriteLine(bonus);
         }
-        else
+        else if ((score >= 7) && (score <= 9))
         {
             bonus = score * 1000;
             Console.WriteLine(bonus);
         }
     }
 }
-
