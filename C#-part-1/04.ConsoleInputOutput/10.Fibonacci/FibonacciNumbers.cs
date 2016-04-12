@@ -16,14 +16,14 @@ class FibonacciNumbers
         int i =  2;
         if (n == 1)
         {
-        	Console.WriteLine(firstNumber);
+            Console.WriteLine(firstNumber);
             return;
         }
         else if (n == 2)
         {
         	Console.WriteLine(firstNumber + ", " + secondNumber);
+            return;
         }
-        
         Console.Write(firstNumber + ", " + secondNumber + ", ");
 
         for (i = 2; i < n - 1; i++)
