@@ -6,7 +6,7 @@ Write a program that finds the biggest of three numbers.
 using System;
 using System.Collections.Generic;
 using System.Linq;
-class MultiplicationSign
+class BiggestOfThree
 {
     static void Main()
     {
