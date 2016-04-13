@@ -12,7 +12,7 @@ class GravitationOnTheMoon
           
          if (weight > 0)
          {
-         	  Console.WriteLine("{0:F3}",moonWeight);
+              Console.WriteLine("{0:F3}",moonWeight);
          }
      }
 }
