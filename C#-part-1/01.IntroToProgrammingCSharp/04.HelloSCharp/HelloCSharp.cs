@@ -1,12 +1,11 @@
 ﻿/*Problem 4.Hello World
-Create, compile and run a “Hello, C#” console application.
-Ensure you have named the application well (e.g. “”HelloCSharp”).
+Create, compile and run a Hello World application - it should print the string Hello, C#! on the console.
 */
 using System;
 public class HelloCSharp
 {
     public static void Main()
     {
-        System.Console.WriteLine("Hello, C#!");
+        Console.WriteLine("Hello, C#!");
     }
 }
