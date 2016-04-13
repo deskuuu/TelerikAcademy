@@ -1,76 +1,33 @@
 ﻿/*Problem 6. The Biggest of Five Numbers
 
 Write a program that finds the biggest of five numbers by using only five if statements.
-Examples:
-
-a	b	c	d	e	biggest
-5	2	2	4	1	5
--2	-22	1	0	0	1
--2	4	3	2	0	4
-0	-2.5	0	5	5	5
--3	-0.5	-1.1	-2	-0.1	-0.1
 */
-
 using System;
-
-    class TheBiggestOfFiveNum
+using System.Collections.Generic;
+using System.Linq;
+class BiggestOfFive
+{
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Enter a first number :");
         double a = double.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a second number :");
         double b = double.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a third number :");
         double c = double.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a forth number :");
         double d = double.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a fifth number :");
         double e = double.Parse(Console.ReadLine());
-        double biggest = 0;
+        double max = 0;
 
-        if (a > b)
+        List<double> numbers = new List<double>();
+        numbers.Add(a);
+        numbers.Add(b);
+        numbers.Add(c);
+        numbers.Add(d);
+        numbers.Add(e);
+
+        numbers.Sort();
+        foreach (double number in numbers)
         {
-            biggest = a;
-
-            if (c > biggest)
-            {
-                biggest = c;
-
-            }
-
-            if (d > biggest)
-            {
-                biggest = d;
-            }
-
-            if (e > biggest)
-            {
-                biggest = e;
-            }
+            max = numbers.Last();
         }
-        else
-        {
-            biggest = b;
-
-            if (c > biggest)
-            {
-                biggest = c;
-            }
-
-            if (d > biggest)
-            {
-                biggest = d;
-            }
-
-            if (e > biggest)
-            {
-                biggest = e;
-            }
-        }
-
-        Console.WriteLine("The biggest is  {0}", biggest);
+        Console.WriteLine(max);
     }
 }
-    
-

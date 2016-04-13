@@ -1,41 +1,30 @@
 ﻿/*Problem 5. The Biggest of 3 Numbers
 
 Write a program that finds the biggest of three numbers.
-Examples:
-
-a	b	c	biggest
-5	2	2	5
--2	-2	1	1
--2	4	3	4
-0	-2.5	5	5
--0.1	-0.5	-1.1	-0.1
 */
 
 using System;
-
-    class TheBiggestOfThreeNum
+using System.Collections.Generic;
+using System.Linq;
+class BiggestOfThree
+{
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Enter a first number :");
         double a = double.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a second number :");
         double b = double.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a third number :");
         double c = double.Parse(Console.ReadLine());
+        double max = 0;
 
-        if (a > b  || a > c)
+        List<double> numbers = new List<double>();
+        numbers.Add(a);
+        numbers.Add(b);
+        numbers.Add(c);
+
+        numbers.Sort();
+        foreach (double number in numbers)
         {
-            Console.WriteLine("The biggest is {0}", a);
+            max = numbers.Last();
         }
-        else if (a < b || b > c)
-        {
-            Console.WriteLine("The biggest is {0}", b);
-        }
-        else
-        {
-            Console.WriteLine("The biggest is {0}", c);
-        }
+        Console.WriteLine(max);
     }
 }
-

@@ -5,36 +5,27 @@ Write a program to calculate the nth Catalan number by given n (0 ≤ n ≤ 100)
 */
 
 using System;
-
+using System.Numerics;
 class CatalanNumbers
 {
+    static BigInteger SumFactorial(int n)
+    {
+        BigInteger result = 1;
+        while (true)
+        {
+            if (n == 1)
+            {
+                break;
+            }
+            result *= n;
+            n--;
+        }
+        return result;
+    }
     static void Main()
     {
-        Console.WriteLine("Enter a number n:");
-        uint n = uint.Parse(Console.ReadLine());
-        int nFactorial = 1;
-        int twoNFactorial = 1;
-        int nPlusOneFactorial = 1;
-        int sum;
-
-        for (int i = 1; i <= n + 1; i++)
-        {
-            if (i <= n)
-            {
-                nFactorial *= i;
-            }
-            nPlusOneFactorial *= i;
-        }
-        for (int i = 1; i <= 2 * n; i++)
-        {
-            twoNFactorial *= i;
-        }
-           sum = twoNFactorial / (nPlusOneFactorial * nFactorial);
-           Console.WriteLine(sum);
-    }                   
+        int n = int.Parse(Console.ReadLine());
+        BigInteger sum = SumFactorial(2 * n) / (SumFactorial(n + 1) * SumFactorial(n));
+        Console.WriteLine(sum);
+    }
 }
-          
-         
-     
-    
-

@@ -13,21 +13,34 @@ class FibonacciNumbers
         BigInteger firstNumber = 0;
         BigInteger secondNumber = 1;
         BigInteger temp = 0;
-        int i =  2;
+        int i = 2;
+        
+        if (n == 1)
+        {
+           Console.WriteLine(firstNumber);
+           return;
+        }
+        else if (n == 2)
+        {
+           Console.WriteLine(firstNumber + ", " + secondNumber);
+           return;
+        }
         Console.Write(firstNumber + ", " + secondNumber + ", ");
 
         for (i = 2; i < n - 1; i++)
         {
-            temp = firstNumber + secondNumber;
-            Console.Write(temp + ", ");
-            firstNumber = secondNumber;
-            secondNumber = temp;
+           temp = firstNumber + secondNumber;
+           Console.Write(temp + ", ");
+           firstNumber = secondNumber;
+           secondNumber = temp;
         }
         i++;
+        
         temp = firstNumber + secondNumber;
+        
         if (i == n)
         {
-        	 Console.Write(temp);
+           Console.Write(temp);
         }
         Console.WriteLine();
     }
