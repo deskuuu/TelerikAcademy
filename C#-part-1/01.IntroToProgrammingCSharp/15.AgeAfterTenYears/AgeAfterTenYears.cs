@@ -8,10 +8,10 @@ class AfterTenYears
 {
     static void Main()
     {
-            DateTime ageNow = DateTime.Parse(Console.ReadLine());
-            DateTime now = DateTime.Now;
-            TimeSpan age = (now.Subtract(ageNow));
-            Console.WriteLine("{0}\n{1}", new DateTime(age.Ticks).Year -1, (new DateTime(age.Ticks).Year - 1)+10);
+        DateTime ageNow = DateTime.Parse(Console.ReadLine());
+        DateTime now = DateTime.Now;
+        TimeSpan age = (now.Subtract(ageNow));
+        Console.WriteLine("{0}\n{1}", new DateTime(age.Ticks).Year -1, (new DateTime(age.Ticks).Year - 1)+10);
     }
 }
 
