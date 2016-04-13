@@ -16,9 +16,9 @@ class Interval
     	for (int i = Math.Min(n, m) + 1;i< Math.Max(n, m); i++)
     	{
     	    if (i % 5 == 0)
-		    {
-    			counter++;
-    		}
+	    {
+    		counter++;
+    	    }
     	}
     	Console.WriteLine(counter);
     }
