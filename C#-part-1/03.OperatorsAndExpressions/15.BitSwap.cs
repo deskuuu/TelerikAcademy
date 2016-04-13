@@ -7,7 +7,7 @@ using System;
 class BitSwap
 {
     static void Main()
-    {
+   {
         uint number = uint.Parse(Console.ReadLine());
         int bit1 = int.Parse(Console.ReadLine());
         int bit2 = int.Parse(Console.ReadLine());
