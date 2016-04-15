@@ -9,22 +9,39 @@ class DeckOf52Cards
 {
     static void Main()
     {
+        string n = Console.ReadLine();
+        int count = Convert.ToInt32(n);
         string j = "J";
         string q = "Q";
         string k = "K";
         string a = "A";
 
-        for (int i = 2; i < 11; i++)
+        for (int i = 2; i <= count; i++)
         {
-            Console.WriteLine(" {0} of spades, {0} of clubs, {0} of hearts, {0} of dimonds", i);
-        }
-         
-        for (int i = 1; i <= 1; i++)
-        {
-            Console.WriteLine(" {0} of spades, {0} of clubs, {0} of hearts, {0} of dimonds", j);
-            Console.WriteLine(" {0} of spades, {0} of clubs, {0} of hearts, {0} of dimonds", q);
-            Console.WriteLine(" {0} of spades, {0} of clubs, {0} of hearts, {0} of dimonds", k);
-            Console.WriteLine(" {0} of spades, {0} of clubs, {0} of hearts, {0} of dimonds", a);
+            if (i <= 10)
+            {
+                Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", i);
+            }
+            if (i == 11)
+            {
+                Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", j);
+            }
+            if (i == 12)
+            {
+                Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", q);
+            }
+            if (i == 13)
+            {
+                Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", k);
+            }
+            if (i == 14)
+            {
+                Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", a);
+            }
+            else if (i > 14)
+            {
+                Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", i);
+            }
         }
     }
 }
