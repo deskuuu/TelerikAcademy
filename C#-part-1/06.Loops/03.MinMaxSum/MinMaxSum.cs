@@ -10,28 +10,28 @@ class MinMaxSumAvg
 {
     static void Main()
     {
-    	int n = int.Parse(Console.ReadLine());
-    	int num, min = 0, max = 0, sum = 0;
-        double avg = 0;
-        
-        List<int> numbers = new List<int>();
+        int n = int.Parse(Console.ReadLine());
+        double num;
+        double min = 0, max = 0, sum = 0, avg = 0;
+
+        List<double> numbers = new List<double>();
 
         for (int i = 0; i < n; i++)
         {
-           num = int.Parse(Console.ReadLine());
-           numbers.Add(num);
+            num = double.Parse(Console.ReadLine());
+            numbers.Add(num);
         }
-        
+
         numbers.Sort();
 
-        foreach (int number in numbers)
+        foreach (double number in numbers)
         {
-           min = numbers.First();
-           max = numbers.Last();
-           sum = numbers.Sum(x => Convert.ToInt32(x));;
-           avg = (double)sum / n;
+            min = numbers.First();
+            max = numbers.Last();
+            sum = numbers.Sum(x=> Convert.ToDouble(x));
+            avg = sum / n;
         }
-        
+
         Console.WriteLine("min={0:F2}", min);
         Console.WriteLine("max={0:F2}", max);
         Console.WriteLine("sum={0:F2}", sum);
