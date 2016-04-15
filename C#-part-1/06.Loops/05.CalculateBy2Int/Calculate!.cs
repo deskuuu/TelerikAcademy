@@ -9,21 +9,21 @@ class CalculateBy2Int
 {
     static void Main()
     {
-        int n = int.Parse(Console.ReadLine());
-        int x = int.Parse(Console.ReadLine());
-        
+        int N = int.Parse(Console.ReadLine());
+        double x = double.Parse(Console.ReadLine());
+
         int counter = 1;
         double sum = 1;
-        double nFactorial = 1;
+        int nFactorial = 1;
         double xP = 1;
 
-        while (counter <= n)
+        while (counter <= N)
         {
-            nFactorial *= counter;
-            xP = Math.Pow(x, counter);
-            sum += (nFactorial / xP);
-            counter++;
-        }
-        Console.WriteLine("{0:F5}", sum);
+           nFactorial *= counter;
+           xP = Math.Pow(x, counter);
+           sum += (nFactorial / xP);
+           counter++;
+         }
+         Console.WriteLine("{0:F5}", sum);
     }
 }
