@@ -1,0 +1,32 @@
+body {
+    font-family: "Calibri";
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 1%;
+    width: 60%;
+}
+
+#toptable, .labels, #boxes, tfoot{
+    background-color: #DFE3E8;
+}
+
+tr, td{
+    border-color: #A4ABB2;
+}
+
+.header{
+    padding-left: 1%;
+}
+
+#total{
+    position: absolute;
+    right: 45%;
+}
+
+#pagesize{
+    position: absolute;
+    right: 70%;
+}
