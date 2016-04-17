@@ -2,22 +2,19 @@
 
 Using loops write a program that converts an integer number to its hexaDimal representation.
 The input is entered as long. The output should be a variable of type string.
-Do not use the built-in .NET functionality.
 */
-
 using System;
 class DecimalTohexaDimalNum
 {
     static void Main()
     {
-        Console.WriteLine("Enter an integer number:");
         long decimalNum = long.Parse(Console.ReadLine());
         long result;
         string hexaD = null;
 
         if (decimalNum == 0)
         {
-            Console.WriteLine("hexaDimal number is: 0");
+            Console.WriteLine(0);
         }
         else
         {
@@ -53,14 +50,11 @@ class DecimalTohexaDimalNum
                 decimalNum /= 16;
             }
 
-            Console.Write("hexaDimal number is: ");
             for (int position = hexaD.Length - 1; position >= 0; position--)
             {
                 Console.Write(hexaD[position]);
             }
-
             Console.WriteLine();
         }
     }
 }
-
