@@ -2,27 +2,26 @@
 
 Using loops write a program that converts a binary integer number to its decimal form.
 The input is entered as string. The output should be a variable of type long.
-Do not use the built-in .NET functionality.
 */
-
 using System;
-
-    class BinaryToDecimalNumber
+class BinaryToDecimalNumber
+{
+    static void Main()
     {
-        static void Main()
-        {
-        Console.WriteLine("Enter a binary number:");
         string input = Console.ReadLine();
-        int count = input.Length - 1;
-        long decimalN = 0;
+        long sum = 0;
 
-        for (int i = 0; i <= input.Length; i++)
+        for (int i = 0; i < input.Length; i++)
         {
-            decimalN += long.Parse(input[i].ToString()) * (long)Math.Pow(2, (count - i));
-           
+            if (input[input.Length - i - 1] == '0')
+            {
+                continue;
+            }
+            else
+            {
+                sum += (int)Math.Pow(2, i);
+            }
         }
-
-        Console.WriteLine(decimalN);
+        Console.WriteLine(sum);
     }
-    }
-
+}
