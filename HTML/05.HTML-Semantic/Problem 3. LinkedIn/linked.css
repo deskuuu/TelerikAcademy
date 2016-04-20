@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    background-color: peachpuff;
+}
+
+fieldset{
+    border-color: aqua;
+}
+
+h1{
+    color: blueviolet;
+}
+
+ol{
+    color: darkcyan;
+}
+
+div{
+    color: brown;
+}
+
+label{
+    color: darkgreen;
+}
+
+input{
+    color: red;
+    border-radius: 29%;
+}

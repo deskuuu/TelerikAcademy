@@ -1,0 +1,53 @@
+body{
+    font-family: "Times New Roman";
+    background-color: antiquewhite;
+}
+
+img{
+    text-align: right;
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+}
+
+li{
+    color: green;
+}
+
+a{
+    color: darkolivegreen;
+}
+
+aside{
+    text-align: right;
+}
+
+div{
+    color: deepskyblue;
+}
+
+table{
+    border-collapse: collapse;
+    border-color: red;
+    background-color: peachpuff;
+    border-style: dashed;
+    position: absolute;
+    right: 55%;
+    bottom: 60%;
+}
+
+.score{
+    background-color: lightgreen;
+}
+
+td{
+    font-family: "Calibri";
+    font-style: italic;
+}
+
+th{
+    color: darkcyan;
+}
