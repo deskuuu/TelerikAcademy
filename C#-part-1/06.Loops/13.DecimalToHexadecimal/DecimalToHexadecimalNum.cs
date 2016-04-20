@@ -24,27 +24,13 @@ class DecimalTohexaDimalNum
 
                 switch (result)
                 {
-                    case 10:
-                        hexaD += 'A';
-                        break;
-                    case 11:
-                        hexaD += 'B';
-                        break;
-                    case 12:
-                        hexaD += 'C';
-                        break;
-                    case 13:
-                        hexaD += 'D';
-                        break;
-                    case 14:
-                        hexaD += 'E';
-                        break;
-                    case 15:
-                        hexaD += 'F';
-                        break;
-                    default:
-                        hexaD += result.ToString();
-                        break;
+                    case 10: hexaD += 'A'; break;
+                    case 11: hexaD += 'B'; break;
+                    case 12: hexaD += 'C'; break;
+                    case 13: hexaD += 'D'; break;
+                    case 14: hexaD += 'E'; break;
+                    case 15: hexaD += 'F'; break;
+                         default: hexaD += result.ToString(); break;
                 }
 
                 decimalNum /= 16;
@@ -54,6 +40,7 @@ class DecimalTohexaDimalNum
             {
                 Console.Write(hexaD[position]);
             }
+
             Console.WriteLine();
         }
     }
