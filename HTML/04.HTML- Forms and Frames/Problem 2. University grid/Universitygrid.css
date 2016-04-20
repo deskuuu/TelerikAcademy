@@ -19,11 +19,12 @@ table{
     border-radius: 30%;
 }
 
-#next{
+#next {
     position: absolute;
     left: 25%;
     background-color: coral;
     border-radius: 30%;
+    bottom: 58.5%;
 }
 
 #foot{

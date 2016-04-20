@@ -24,9 +24,11 @@ tr, td{
 #total{
     position: absolute;
     right: 45%;
+    bottom: 48%;
 }
 
 #pagesize{
     position: absolute;
     right: 70%;
+    bottom: 48%;
 }
