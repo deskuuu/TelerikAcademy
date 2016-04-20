@@ -23,12 +23,14 @@ class SpiralMatrix
                 col--;
                 row++;
             }
+            
             if (direction == "down" && (row > n - 1 || matrix[row, col] != 0))
             {
                 direction = "left";
                 row--;
                 col--;
             }
+            
             if (direction == "left" && (col < 0 || matrix[row, col] != 0))
             {
                 direction = "up";
@@ -49,14 +51,17 @@ class SpiralMatrix
             {
                 col++;
             }
+            
             if (direction == "down")
             {
                 row++;
             }
+            
             if (direction == "left")
             {
                 col--;
             }
+            
             if (direction == "up")
             {
                 row--;
@@ -69,6 +74,7 @@ class SpiralMatrix
             {
                 Console.Write("{0} ", matrix[r, c]);
             }
+            
             Console.WriteLine();
         }
     }
