@@ -9,7 +9,7 @@ class PrimeNumberCheck
 {
      static void Main()
      {
-        	int number = int.Parse(Console.ReadLine());
+          int number = int.Parse(Console.ReadLine());
           int k = 0;;
      
           for (int i = 1; i <= number; i++)
