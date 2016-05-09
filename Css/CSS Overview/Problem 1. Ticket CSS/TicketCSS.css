@@ -28,6 +28,10 @@ span {
     color: sandybrown;
 }
 
+#pic:before {
+    content: url("Pictures/dot.png");
+}
+
 .red {
     color: red;
 }
@@ -44,6 +48,10 @@ tbody th {
     color: antiquewhite;
     text-align: left;
     font-style: italic;
+}
+
+tbody th:after {
+    content: ':';
 }
 
 

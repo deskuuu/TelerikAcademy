@@ -23,9 +23,16 @@ tr, td, th {
     border-left: 1px solid tan;
 }
 
-img{
-    width:30px;
-    height:15px;
+.germany:before {
+    content: url("Pictures/germany.png");
+}
+
+.mexico:before {
+    content: url("Pictures/mexico.png");
+}
+
+.uk:before {
+    content: url("Pictures/uk.png");
 }
 
 tr:nth-child(even) {

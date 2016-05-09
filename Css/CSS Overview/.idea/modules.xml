@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Desktop/CSS Overview/.idea/Css.iml" filepath="$USER_HOME$/Desktop/CSS Overview/.idea/Css.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CSS Overview.iml" filepath="$PROJECT_DIR$/.idea/CSS Overview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../CSS Overview/.idea/Css.iml" filepath="$PROJECT_DIR$/../../../../../CSS Overview/.idea/Css.iml" />
     </modules>
   </component>
 </project>
