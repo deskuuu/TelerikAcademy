@@ -194,3 +194,28 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+/CSS/01.CSS Overview/.idea/*.name
+/CSS/01.CSS Overview/.idea/*.iml
+/CSS/01.CSS Overview/.idea/*.xml
+/CSS/01.CSS Overview/Problem 1. Ticket CSS/Pictures/*.png
+/CSS/01.CSS Overview/Problem 1. Ticket CSS/*.html
+/CSS/01.CSS Overview/Problem 1. Ticket CSS/*.css
+/CSS/01.CSS Overview/Problem 2. International Employees/*.html
+/CSS/01.CSS Overview/Problem 2. International Employees/*.css
+/CSS/01.CSS Overview/Problem 2. International Employees/Pictures/*.png
+/CSS/01.CSS Overview/Problem 3. Forum Posts/*.html
+/CSS/01.CSS Overview/Problem 3. Forum Posts/*.css
+/CSS/02.CSS Presentation/.idea/*.name
+/CSS/02.CSS Presentation/.idea/*.iml
+/CSS/02.CSS Presentation/.idea/*.xml
+/CSS/02.CSS Presentation/Problem 1. Lorem Ipsum page/Fonts/*.TTF
+/CSS/02.CSS Presentation/Problem 1. Lorem Ipsum page/*.html
+/CSS/02.CSS Presentation/Problem 1. Lorem Ipsum page/*.css
+/CSS/02.CSS Presentation/Problem 2. Forum Posts/*.html
+/CSS/02.CSS Presentation/Problem 2. Forum Posts/*.css
+/CSS/02.CSS Presentation/Problem 2. Forum Posts/Photos/*.png
+/CSS/02.CSS Presentation/Problem 3. Nested Divs/*.html
+/CSS/02.CSS Presentation/Problem 3. Nested Divs/*.css
+/CSS/02.CSS Presentation/Problem 4. Windows Calculator/Photos/*.png
+/CSS/02.CSS Presentation/Problem 4. Windows Calculator/*.html
+/CSS/02.CSS Presentation/Problem 4. Windows Calculator/*.css
