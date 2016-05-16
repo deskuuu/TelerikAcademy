@@ -155,20 +155,3 @@ td {
     background-color: #E5ECF5;
 }
 
-td button:active {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdefdf+0,fce2c6+39,fcdfb8+42,fbd48b+44,face71+47,fbd078+53,fbd982+75,fbe88b+92,fbed96+94,fefadb+100 */
-    background: #fdefdf; /* Old browsers */
-    background: -moz-linear-gradient(top,  #fdefdf 0%, #fce2c6 39%, #fcdfb8 42%, #fbd48b 44%, #face71 47%, #fbd078 53%, #fbd982 75%, #fbe88b 92%, #fbed96 94%, #fefadb 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #fdefdf 0%,#fce2c6 39%,#fcdfb8 42%,#fbd48b 44%,#face71 47%,#fbd078 53%,#fbd982 75%,#fbe88b 92%,#fbed96 94%,#fefadb 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #fdefdf 0%,#fce2c6 39%,#fcdfb8 42%,#fbd48b 44%,#face71 47%,#fbd078 53%,#fbd982 75%,#fbe88b 92%,#fbed96 94%,#fefadb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdefdf', endColorstr='#fefadb',GradientType=0 ); /* IE6-9 */
-
-}
-
-input[type=checkbox] + label {
-    color: #ccc;
-}
-
-input[type=checkbox]:checked + label {
-    color: #f00;
-}
