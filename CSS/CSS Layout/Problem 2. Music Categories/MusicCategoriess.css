@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#base {
+    background-color: #EEEEEE;
+    border: 1px;
+    border-radius: 10px;
+    width: 420px;
+}
+
+#first-box p:before {
+    content: url("Photos/firstImg.png");
+    float: left;
+}
+
+
+#middle-box p:before {
+    content: url("Photos/secondImg.png");
+    float: left;
+}
+
+#last-box p:before{
+    content: url("Photos/thirdImg.png");
+    float: left;
+}
+
+/*  Good way, but can`t write on pics
+
+#first-box p:after {
+    content: url("Photos/listenBtn.png") " " url("Photos/addBtn.png");
+    float: right;
+}*/
+
+#head{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.listen{
+    background-image: url("Photos/listenBtn.png");
+    width: 50px;
+}
+
+.add{
+    background-image: url("Photos/addBtn.png");
+    width: 63px;
+}
+
+.listen, .add {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    color: white;
+    margin: 6px;
+}
+
+#nested-first, #nested-middle, #nested-last{
+    padding: 6px;
+    border: none;
+}
+
+#first-box, #middle-box, #last-box{
+    background-color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+

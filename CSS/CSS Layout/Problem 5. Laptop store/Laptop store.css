@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Candara';
+}
+
+a {
+    text-decoration: underline;
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#base {
+    height: 510px;
+}
+
+nav {
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    margin: 4px auto;
+    background-color: #777777;
+    border: 0;
+}
+
+#pcs fieldset, fieldset {
+    width: 190px;
+}
+
+div span {
+    margin: 3px;
+}
+
+.paramethers {
+    position: relative;
+    right: -108px;
+    top: -59px;
+}
+
+.last {
+    position: relative;
+    right: -24px;
+}
+
+#aside {
+    position: relative;
+    float: right;
+    top: -400px;
+    right: -250px;
+    text-align: left;
+    border: none;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 9px 0;
+}
+
+#pcs {
+    height: 460px;
+    width: 650px;
+}
+
+#right {
+    float: right;
+    right: 180px;
+    position: relative;
+    border: none;
+    top: -467px;
+}
+
+img {
+    padding: 4px 2px;
+}

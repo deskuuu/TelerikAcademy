@@ -1,0 +1,31 @@
+body {
+    font-size: 19px;
+    color: #24141C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    margin-left: 10px;
+    list-style-type: none;
+    display: none;
+}
+
+ul:hover li {
+    display: block;
+    color: #A9A9A9;
+    text-indent: 10px;
+    text-decoration: none;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+ul li:first-child {
+    margin: 0;
+}

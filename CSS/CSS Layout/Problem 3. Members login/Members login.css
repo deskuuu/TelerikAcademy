@@ -1,0 +1,75 @@
+body * {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+    width: 662px;
+    border-radius: 10px;
+    background-color: #373C3C;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #343434;;
+    margin: 0;
+}
+
+p #before:before {
+    content: url("Photos/logo.png");
+}
+
+#first, #second {
+    position: absolute;
+    top: 30px;
+}
+
+#first {
+    left: 180px;
+}
+
+#second {
+    left: 390px;
+}
+
+#after:after {
+    content: url("Photos/goBtn.png");
+    position: relative;
+    left: 410px;
+    top: 1px;
+}
+
+#before {
+    font-size: 23px;
+    color: white;
+}
+
+section {
+    background-color: #414141;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #FFD51A;
+    padding: 14px 12px;
+}
+
+p{
+    font-family: sans-serif;
+    color: #777777;
+    padding: 0 0 0 12px;
+}
+
+p:last-of-type{
+    padding-bottom: 5px;
+}
+ a{
+     color: #777777;
+     text-decoration: none;
+ }
+
+ #name{
+     color: aliceblue;
+ }
