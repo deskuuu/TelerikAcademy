@@ -7,7 +7,7 @@ function BiggestNumOFive(a, b, c, d, e) {
     var arr = [a, b, c, d, e];
 
     arr.sort(function (x, y) {
-        return x - y
+        return x - y;
     });
     return arr[4];
 }
