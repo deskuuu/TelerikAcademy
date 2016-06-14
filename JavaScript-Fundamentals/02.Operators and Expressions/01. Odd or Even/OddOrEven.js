@@ -2,14 +2,19 @@
  Write an expression that checks if given integer is odd or even.
  */
 
-function CheckNumber(number){
+function CheckNumber(number) {
     var isOdd = false;
 
     if (!(number % 2 == 0)) {
         isOdd = true;
     }
 
-    return console.log(isOdd);
+    if (isOdd) {
+       return console.log('odd ' + number)
+    } else {
+       return console.log('even ' + number)
+    }
+
 };
 
-CheckNumber(0); //number to check
+CheckNumber(-2); //number to check

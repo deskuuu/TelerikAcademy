@@ -3,9 +3,14 @@
  */
 
 function CheckThirdDigit(number) {
-    var check = ((number / 100) % 10 | 0) == 7;    // round with | 0
+    var digit = (number / 100) % 10 | 0,
+        check = digit == 7; // round with | 0
 
-    return console.log(check);
+    if (check) {
+        return console.log(check);
+    } else {
+        return console.log('false ' + digit);
+    }
 }
 
-CheckThirdDigit(9999799);
+CheckThirdDigit(877);

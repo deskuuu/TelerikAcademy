@@ -1,14 +1,41 @@
 /**Problem 6. Point in Circle
  Write an expression that
- checks if given point P(x, y) is within a circle K({0,0}, 5). //{0,0} is the centre and 5 is the radius
+ checks if given point P(x, y) is within a circle K({0,0}, 2). //{0,0} is the centre and 2 is the radius
  */
 
-function CheckInCircle(x, y) {
-//The formula for circle is (x-k)^2 + (y-k)^2 = r^2
+/*function CheckInCircle(x, y, radius) {
+ //The formula for circle is (px - cx) * (px - cx) + (py - cy) * (py - cy) <= r * r
 
-    var IsInCircle = (x * x) + (y * y) <= (5 * 5);
+ var point = (x * x) + (y * y),
+ IsInCircle = point <= (radius * radius),
+ distance = Math.sqrt(point);
 
-    return console.log(IsInCircle);
+ if (IsInCircle) {
+ return console.log('yes ' + (Math.round(distance * 100) / 100).toFixed(2));
+ } else if (point == 0) {
+ return console.log('0');
+ }
+ else {
+ return console.log('no ' + (Math.round(distance * 100) / 100).toFixed(2));
+ }
+ }*/
+//CheckInCircle(1, 1.655, 2);
+
+function CheckInCircle(args) {
+    //The formula for circle is (px - cx) * (px - cx) + (py - cy) * (py - cy) <= r * r
+    var x = +args[0],
+        y = +args[1];
+    var point = (x * x) + (y * y),
+        IsInCircle = point <= (2 * 2),
+        distance = Math.sqrt(point);
+
+    if (IsInCircle) {
+        console.log('yes ' + (Math.round(distance * 100) / 100).toFixed(2));
+    } else if (point == 0) {
+        return console.log('0');
+    }
+    else {
+       return console.log('no ' + (Math.round(distance * 100) / 100).toFixed(2));
+    }
 }
 
-CheckInCircle(2, 2.655);

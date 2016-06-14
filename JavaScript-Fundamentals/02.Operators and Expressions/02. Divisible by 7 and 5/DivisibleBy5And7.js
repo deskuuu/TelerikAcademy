@@ -10,7 +10,12 @@ function DevidedByBoth(number) {
         isDevideble = false;
     }
 
-    return console.log(isDevideble);
+    if (isDevideble) {
+        return console.log('true ' + number);
+    }
+    else {
+        return console.log('false ' + number);
+    }
 }
 
 DevidedByBoth(140);   //number to check
