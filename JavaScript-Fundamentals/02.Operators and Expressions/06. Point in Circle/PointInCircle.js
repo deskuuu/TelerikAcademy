@@ -11,12 +11,12 @@
  distance = Math.sqrt(point);
 
  if (IsInCircle) {
- return console.log('yes ' + (Math.round(distance * 100) / 100).toFixed(2));
+ return console.log('yes ' + distance.toFixed(2));
  } else if (point == 0) {
  return console.log('0');
  }
  else {
- return console.log('no ' + (Math.round(distance * 100) / 100).toFixed(2));
+ return console.log('no ' + distance.toFixed(2));
  }
  }*/
 //CheckInCircle(1, 1.655, 2);
@@ -30,12 +30,12 @@ function CheckInCircle(args) {
         distance = Math.sqrt(point);
 
     if (IsInCircle) {
-        console.log('yes ' + (Math.round(distance * 100) / 100).toFixed(2));
+        console.log('yes ' + distance.toFixed(2));
     } else if (point == 0) {
         return console.log('0');
     }
     else {
-       return console.log('no ' + (Math.round(distance * 100) / 100).toFixed(2));
+       return console.log('no ' + distance.toFixed(2));
     }
 }
 
