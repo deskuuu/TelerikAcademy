@@ -1,5 +1,5 @@
 /**Problem 3. Rectangle area
- Write an expression that calculates rectangle’s area by given width and height.
+ Write an expression that calculates rectangleâ€™s area by given width and height.
  */
 
 /*function CalculateArea(width, height) {
@@ -13,6 +13,6 @@ function CalculateArea(args) {
     var area = a * b,
         perimeter = a * 2 + b * 2;
 
-    console.log(perimeter.toFixed(2) + ' ' + perimeter.toFixed(2));
+   return console.log(area.toFixed(2) + ' ' + perimeter.toFixed(2));
 }
 
