@@ -1,10 +1,14 @@
 /**Problem 7. The biggest of five numbers
  Write a script that finds the greatest of given 5 variables.
- Use nested if statements.
  */
 
-function BiggestNumOFive(a, b, c, d, e) {
-    var arr = [a, b, c, d, e];
+function BiggestNumOFive(args) {
+    var a = +args[0],
+        b = +args[1],
+        c = +args[2],
+        d = +args[3],
+        e = +args[4],
+        arr = [a, b, c, d, e];
 
     arr.sort(function (x, y) {
         return x - y;

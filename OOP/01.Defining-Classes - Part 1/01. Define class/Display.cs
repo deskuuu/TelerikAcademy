@@ -1,7 +1,5 @@
 ﻿namespace MobilePhone
 {
-    using System;
-
     class Display
     {
         //Fields

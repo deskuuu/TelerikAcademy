@@ -3,15 +3,13 @@
  Print the obtained array on the console.
  */
 function IncreaseArray(number) {
-    var index = 0,
+    var i,
         arr = [];
 
-    while (index <= number) {
-        arr.push(index * 5);
-        index += 1;
+    for (i = 0; i < number; i += 1) {
+        arr[i] = +(i * 5);
+        console.log(arr[i]);
     }
-
-    return arr.toString();
 }
 //Check
-console.log(IncreaseArray(20));
+IncreaseArray(['5']);

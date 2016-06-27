@@ -3,12 +3,15 @@
  Use nested if statements.
  */
 
-function FindTheBiggest(a, b, c) {
-    var biggest;
+function FindTheBiggest(args) {
+    var a = +args[0],
+        b = +args[1],
+        c = +args[2],
+        biggest;
 
     if (a > b && a > c) {
         biggest = a;
-    } else if (a > a && b > c) {
+    } else if (b > a && b > c) {
         biggest = b;
     }
     else {
@@ -19,5 +22,4 @@ function FindTheBiggest(a, b, c) {
 }
 
 //Check
-var result = FindTheBiggest(0, -2.5, 5);
-console.log(result);
+FindTheBiggest(['0', '-2.5', '5']);

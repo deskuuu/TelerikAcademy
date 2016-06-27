@@ -4,28 +4,41 @@
  Use a switch statement.
  */
 function AsWord(number) {
-    switch (number) {
+    var num = +number[0];
+    switch (num) {
         case 0:
-            return console.log('zero');break;
+            return console.log('zero');
+            break;
         case 1:
-            return console.log('one');break;
+            return console.log('one');
+            break;
         case 2:
-            return console.log('two');break;
+            return console.log('two');
+            break;
         case 3:
-            return console.log('three');break;
+            return console.log('three');
+            break;
         case 4:
-            return console.log('four');break;
+            return console.log('four');
+            break;
         case 5:
-            return console.log('five');break;
+            return console.log('five');
+            break;
         case 6:
-            return console.log('six');break;
+            return console.log('six');
+            break;
         case 7:
-            return console.log('seven');break;
+            return console.log('seven');
+            break;
         case 8:
-            return console.log('eight');break;
+            return console.log('eight');
+            break;
         case 9:
-            return console.log('nine');break;
-        default : return console.log('not a digit');break;
+            return console.log('nine');
+            break;
+        default :
+            return console.log('not a digit');
+            break;
     }
 }
 

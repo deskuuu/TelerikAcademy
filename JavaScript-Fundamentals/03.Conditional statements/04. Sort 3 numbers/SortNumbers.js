@@ -1,22 +1,26 @@
 /**Problem 4. Sort 3 numbers
  Sort 3 real values in descending order.
  Use nested if statements.
- Note: Don’t use arrays and the built-in sorting functionality.
+ Note: Donï¿½t use arrays and the built-in sorting functionality.
  */
 
-function Sort(a, b, c) {
+function Sort(args) {
+    var a = +args[0],
+        b = +args[1],
+        c = +args[2];
+
     if (a > b && a > c) {
         if (b >= c) {
             return console.log(a + ' ' + b + ' ' + c);
         }
-        else{
+        else {
             return console.log(a + ' ' + c + ' ' + b);
         }
 
     } else if (b > a && b > c) {
         if (a >= c) {
             return console.log(b + ' ' + a + ' ' + c);
-        }else{
+        } else {
             return console.log(b + ' ' + c + ' ' + a);
         }
     }
@@ -31,6 +35,6 @@ function Sort(a, b, c) {
 }
 
 //Check
-Sort(-1.1, -0.5, -0.1);
-Sort(-2, 4, 3);
-Sort(0, -2.5, 5);
+Sort(['-1.1', '-0.5', '-0.1']);
+Sort(['-2', '4', '3']);
+Sort(['0', '-2.5', '5']);

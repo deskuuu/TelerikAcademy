@@ -3,12 +3,14 @@
  As a result print the values a and b, separated by a space.
  */
 
-function Exchange(a, b) {
-    var aIsGreather = a > b;
+function Exchange(args) {
+    var a = +args[0],
+        b = +args[1],
+        aIsGreather = a > b;
 
-    return aIsGreather ?  console.log(b + " " + a) : console.log(a + " " + b);
+    return aIsGreather ? console.log(b + " " + a) : console.log(a + " " + b);
 }
 
 // Check
-Exchange(5,7);
-Exchange(5.5, 4.5);
+Exchange(['3', '5']);
+Exchange(['5.5', '4.5']);

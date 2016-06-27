@@ -2,13 +2,17 @@
  Write a script that prints all the numbers from 1 to N.
  */
 
-function PrintToN(number) {
-    var n = 1;
+function PrintToN(args) {
+    var n = 1,
+        number = +args[0],
+        str = '';
 
     while (n <= number) {
-        console.log(n);
+        str += n + ' ';
         n += 1;
     }
+
+    return console.log(str);
 }
 //Check
-PrintToN(10);
+PrintToN(['5']);

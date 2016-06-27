@@ -1,0 +1,7 @@
+Point: (1 4 2)
+Point: (2 5 4)
+Point: (3 6 6)
+Point: (4 7 8)
+Point: (5 8 10)
+Point: (6 9 12)
+Point: (7 10 14)

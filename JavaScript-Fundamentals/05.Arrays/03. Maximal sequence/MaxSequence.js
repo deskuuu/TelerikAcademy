@@ -3,17 +3,13 @@
  */
 
 function FindMaxSequence(arr) {
-    var n = arr.length,
-        counter = 0;
-
+    //Todo: read digits from arr
     while (counter < n) {
-        if (arr[counter] == arr[counter + 1]) {
-            console.log(arr[counter]);
+        if (arr[counter] == +arr[counter + 1]) {
+            counter += 1;
         }
-
-        counter+=1;
     }
-
+     return console.log(counter);
 }
 //Check
-FindMaxSequence(2, 1, 1, 2, 3, 3, 2, 2, 2, 1);
+FindMaxSequence(['10', '2', '1', '1', '2', '3', '3', '2', '2', '2', '1']);
