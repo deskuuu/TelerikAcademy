@@ -21,46 +21,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Planar coordinates.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07.Using Objects/01.Planar coordinates/Planar coordinates.js">
+      <file leaf-file-name="Parse tags.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09.Strings/04.Parse tags/Parse tags.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!block;n#CalcDistance#0;n#!!block;n#solve#0" expanded="false" />
-                <element signature="n#!!block;n#CheckTriangle#0;n#!!block;n#solve#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Remove elements.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07.Using Objects/02.Remove elements/Remove elements.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Youngest person.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07.Using Objects/05.Youngest person/Youngest person.js">
+      <file leaf-file-name="Extract text from HTML.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09.Strings/06.Extract text from HTML/Extract text from HTML.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#MakePerson#0;n#!!block;n#FindYoungest#0" expanded="false" />
-              </folding>
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parse URL.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09.Strings/07.Parse URL/Parse URL.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8. Replace tags.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09.Strings/08. Replace tags/8. Replace tags.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Format with placeholders.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10. Regular Expressions/01.Format with placeholders/Format with placeholders.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22616407">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Group people.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07.Using Objects/06.Group people/Group people.js">
+        <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/06.Group people/Group people.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.36">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.62">
+              <caret line="21" column="65" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTML binding.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10. Regular Expressions/02.HTML binding/HTML binding.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.02">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -71,58 +96,28 @@
       <file leaf-file-name="Make person.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/01.Make person/Make person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.02">
-              <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+            <state vertical-scroll-proportion="-4.08">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="People of age.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="People of age.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/02.People of age/People of age.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05676127">
-              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+            <state vertical-scroll-proportion="-1.36">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <file leaf-file-name="Group people.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07.Using Objects/06.Group people/Group people.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sorting array.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06.Functions/07.Sorting array/Sorting array.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="First larger than neighbours.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06.Functions/06.First larger than neighbours/First larger than neighbours.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state vertical-scroll-proportion="-6.8">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,13 +160,21 @@
         <option value="$PROJECT_DIR$/06.Functions/04.Appearance count/Appearance count.js" />
         <option value="$PROJECT_DIR$/06.Functions/05.Larger than neighbours/Larger than neighbours.js" />
         <option value="$PROJECT_DIR$/07.Using Objects/04.Has property/Has property.js" />
+        <option value="$PROJECT_DIR$/05.Arrays/07. Binary search/BinarySearch.js" />
+        <option value="$PROJECT_DIR$/05.Arrays/08.Subset with sum S/Subset with sum S.js" />
+        <option value="$PROJECT_DIR$/05.Arrays/PrimeNumbers/PrimeNumbers.js" />
+        <option value="$PROJECT_DIR$/06.Functions/06.First larger than neighbours/First larger than neighbours.js" />
+        <option value="$PROJECT_DIR$/06.Functions/07.Sorting array/Sorting array.js" />
+        <option value="$PROJECT_DIR$/07.Using Objects/01.Planar coordinates/Planar coordinates.js" />
+        <option value="$PROJECT_DIR$/07.Using Objects/02.Remove elements/Remove elements.js" />
+        <option value="$PROJECT_DIR$/07.Using Objects/05.Youngest person/Youngest person.js" />
+        <option value="$PROJECT_DIR$/07.Using Objects/03.Deep copy/Deep copy.js" />
         <option value="$PROJECT_DIR$/07.Using Objects/06.Group people/Group people.js" />
         <option value="$PROJECT_DIR$/08.Methods on Arrays and Objects/01.Make person/Make person.js" />
         <option value="$PROJECT_DIR$/08.Methods on Arrays and Objects/02.People of age/People of age.js" />
         <option value="$PROJECT_DIR$/08.Methods on Arrays and Objects/03.Underage people/Underage people.js" />
         <option value="$PROJECT_DIR$/08.Methods on Arrays and Objects/04.Average age of females/Average age of females.js" />
         <option value="$PROJECT_DIR$/08.Methods on Arrays and Objects/05.Youngest person/Youngest person.js" />
-        <option value="$PROJECT_DIR$/08.Methods on Arrays and Objects/06.Group people/Group people.js" />
         <option value="$PROJECT_DIR$/09.Strings/01.Reverse string/Reverse string.js" />
         <option value="$PROJECT_DIR$/09.Strings/02.Correct brackets/Correct brackets.js" />
         <option value="$PROJECT_DIR$/09.Strings/03.Sub-string in text/Sub-string in text.js" />
@@ -183,15 +186,7 @@
         <option value="$PROJECT_DIR$/09.Strings/09. Extract e-mails/9. Extract e-mails.js" />
         <option value="$PROJECT_DIR$/10. Regular Expressions/01.Format with placeholders/Format with placeholders.js" />
         <option value="$PROJECT_DIR$/10. Regular Expressions/02.HTML binding/HTML binding.js" />
-        <option value="$PROJECT_DIR$/05.Arrays/07. Binary search/BinarySearch.js" />
-        <option value="$PROJECT_DIR$/05.Arrays/08.Subset with sum S/Subset with sum S.js" />
-        <option value="$PROJECT_DIR$/05.Arrays/PrimeNumbers/PrimeNumbers.js" />
-        <option value="$PROJECT_DIR$/06.Functions/06.First larger than neighbours/First larger than neighbours.js" />
-        <option value="$PROJECT_DIR$/06.Functions/07.Sorting array/Sorting array.js" />
-        <option value="$PROJECT_DIR$/07.Using Objects/01.Planar coordinates/Planar coordinates.js" />
-        <option value="$PROJECT_DIR$/07.Using Objects/02.Remove elements/Remove elements.js" />
-        <option value="$PROJECT_DIR$/07.Using Objects/05.Youngest person/Youngest person.js" />
-        <option value="$PROJECT_DIR$/07.Using Objects/03.Deep copy/Deep copy.js" />
+        <option value="$PROJECT_DIR$/08.Methods on Arrays and Objects/06.Group people/Group people.js" />
       </list>
     </option>
   </component>
@@ -205,7 +200,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1308" />
+    <option name="width" value="1318" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -260,11 +255,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="07.Using Objects" />
+              <option name="myItemId" value="10. Regular Expressions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="06.Group people" />
+              <option name="myItemId" value="02.HTML binding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +273,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="07.Using Objects" />
+              <option name="myItemId" value="10. Regular Expressions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01.Format with placeholders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,20 +304,20 @@
       <recent name="C:\Users\desi\Desktop\TelerikAcademy\JavaScript-Fundamentals\04.Loops" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Youngest person.js">
-    <configuration default="false" name="Appearance count.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="Appearance count.js" working-dir="$PROJECT_DIR$/06.Functions/04.Appearance count">
+  <component name="RunManager" selected="Node.js.Group people.js">
+    <configuration default="false" name="nbsp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="nbsp.js" working-dir="$PROJECT_DIR$/09.Strings/05.nbsp">
       <method />
     </configuration>
-    <configuration default="false" name="BinarySearch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="BinarySearch.js" working-dir="$PROJECT_DIR$/05.Arrays/07. Binary search">
+    <configuration default="false" name="Extract text from HTML.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="Extract text from HTML.js" working-dir="$PROJECT_DIR$/09.Strings/06.Extract text from HTML">
       <method />
     </configuration>
-    <configuration default="false" name="Planar coordinates.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="Planar coordinates.js" working-dir="$PROJECT_DIR$/07.Using Objects/01.Planar coordinates">
+    <configuration default="false" name="Parse URL.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="Parse URL.js" working-dir="$PROJECT_DIR$/09.Strings/07.Parse URL">
       <method />
     </configuration>
-    <configuration default="false" name="Remove elements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="Remove elements.js" working-dir="$PROJECT_DIR$/07.Using Objects/02.Remove elements">
+    <configuration default="false" name="8. Replace tags.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="8. Replace tags.js" working-dir="$PROJECT_DIR$/09.Strings/08. Replace tags">
       <method />
     </configuration>
-    <configuration default="false" name="Youngest person.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/Downloads/node" path-to-js-file="Youngest person.js" working-dir="$PROJECT_DIR$/07.Using Objects/05.Youngest person">
+    <configuration default="false" name="Group people.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="Group people.js" working-dir="$PROJECT_DIR$/08.Methods on Arrays and Objects/06.Group people">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -360,19 +359,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Appearance count.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.BinarySearch.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Planar coordinates.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Remove elements.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Youngest person.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.nbsp.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Extract text from HTML.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Parse URL.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.8. Replace tags.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Group people.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Youngest person.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Remove elements.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Planar coordinates.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.BinarySearch.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Appearance count.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Group people.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.8. Replace tags.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Parse URL.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Extract text from HTML.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.nbsp.js" />
       </list>
     </recent_temporary>
   </component>
@@ -390,18 +389,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1308" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20820433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20737328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21925926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21925926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -460,11 +459,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/09.Strings/01.Reverse string/Reverse string.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06.Functions/06.First larger than neighbours/First larger than neighbours.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="47" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,111 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/03.Underage people/Underage people.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/04.Average age of females/Average age of females.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/05.Youngest person/Youngest person.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/06.Group people/Group people.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/01.Reverse string/Reverse string.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/02.Correct brackets/Correct brackets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/03.Sub-string in text/Sub-string in text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="132" selection-start-line="1" selection-start-column="132" selection-end-line="1" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/04.Parse tags/Parse tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/05.nbsp/nbsp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="81" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/06.Extract text from HTML/Extract text from HTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/07.Parse URL/Parse URL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/08. Replace tags/8. Replace tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09.Strings/09. Extract e-mails/9. Extract e-mails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Regular Expressions/01.Format with placeholders/Format with placeholders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Regular Expressions/02.HTML binding/HTML binding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05.Arrays/06. Most frequent number/FrequentNumber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -734,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="47" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,15 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,14 +679,6 @@
           <folding>
             <element signature="n#!!block;n#MakePerson#0;n#!!block;n#FindYoungest#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,28 +693,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07.Using Objects/06.Group people/Group people.js">
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.36">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/01.Make person/Make person.js">
+    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/03.Underage people/Underage people.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.02">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="88" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/04.Average age of females/Average age of females.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.46">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/05.Youngest person/Youngest person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.44">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/02.Correct brackets/Correct brackets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.44">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/03.Sub-string in text/Sub-string in text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/01.Reverse string/Reverse string.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/05.nbsp/nbsp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/04.Parse tags/Parse tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/06.Extract text from HTML/Extract text from HTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/07.Parse URL/Parse URL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Strings/08. Replace tags/8. Replace tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/02.People of age/People of age.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05676127">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        <state vertical-scroll-proportion="-1.36">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Using Objects/06.Group people/Group people.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/01.Make person/Make person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.08">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Methods on Arrays and Objects/06.Group people/Group people.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.62">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10. Regular Expressions/02.HTML binding/HTML binding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.02">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10. Regular Expressions/01.Format with placeholders/Format with placeholders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22616407">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

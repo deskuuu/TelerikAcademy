@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Task-1</title>
+</head>
+<body>
+<div id="root" onclick="solve()">
+ cddf
+</div>
+
+<script src="task-1.js"></script>
+<script>
+    function solve() {
+        var button = document.getElementById('root');
+
+        button.addEventListener("click", onButtonClick, false);
+        function onButtonClick(event) {
+            console.log("target ", event.target.parentNode);
+            console.log("type ",event.type);
+        }
+    }
+</script>
+</body>
+</html>
