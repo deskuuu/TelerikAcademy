@@ -1,0 +1,42 @@
+body {
+    font-family: "Calibri";
+}
+
+.form {
+    border: 1px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 2%;
+    width: 60%;
+}
+
+a:hover {
+    outline: solid #ff0000;
+}
+
+#toptable, .labels, #boxes, tfoot {
+    background-color: #DFE3E8;
+}
+
+tr, td {
+    border-color: #618586;
+}
+
+.header {
+    padding-left: 1%;
+}
+
+#total {
+    position: absolute;
+    right: 45%;
+    bottom: 48%;
+}
+
+#pagesize {
+    position: absolute;
+    right: 70%;
+    bottom: 48%;
+}

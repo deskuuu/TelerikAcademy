@@ -1,0 +1,49 @@
+body {
+    font-size: 100%;
+    padding-left: 4%;
+}
+
+#first-table {
+    width: 36%;
+    height: 50%;
+}
+
+#first-table th {
+    font-size: 130%;
+    font-style: italic;
+    font-family: "Calibri Light" sans-serif;
+}
+
+button {
+    border: 1px solid #00ff00;
+    color: #ff0000;
+    font-weight: bold;
+    border-radius: 4%;
+    width: 10%;
+    background-color: #00FFFF;
+    margin: 3%;
+}
+
+button:hover {
+    cursor: pointer;
+    font-style: oblique;
+}
+
+#second-table {
+    visibility: hidden;
+    border-collapse: collapse;
+    width: 15%;
+}
+
+#second-table th, #second-table td {
+    border: inset #C8C8C8;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+

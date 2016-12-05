@@ -1,0 +1,69 @@
+table, tr, td , #statee{
+    border-collapse: collapse;
+    border: 2px solid #858585;
+}
+
+fieldset{
+    width:480px ;
+    height: 480px;
+}
+
+table{
+    width: 470px;
+}
+
+tfoot{
+    background-color: #D1EDE1;
+}
+
+tr{
+    height: 34px;
+}
+
+th{
+    width: 50px;
+    text-align: right;
+}
+
+#statee{
+    font-weight: bold;
+    padding: 4px;
+}
+
+#state{
+    width: 65px;
+}
+
+#country{
+    width: 150px;
+}
+
+input{
+    margin: 1%;
+}
+
+#phone{
+    width: 35px;
+}
+
+#phoneOther{
+    width: 35px;
+}
+
+#birthDay,#day{
+    width: 30px;
+}
+
+tfoot{
+    text-align: center;
+}
+
+tfoot input:hover{
+          cursor: pointer;
+    color: #688834;
+    border-color: #858588;
+}
+
+#year{
+    width: 48px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nested lists</title>
+    <link rel="stylesheet" href="NestedLists.css">
+    <script src="NestedLists.js"></script>
+</head>
+<body>
+<header>
+    <div id="title" onclick="HiddeAll()">Preceding Text (Click to hide all list)</div>
+</header>
+<main>
+    <ul id="root">
+        <li class="root-list-nested"><span>List item 1</span>
+            <ul id="list-item-1">
+                <li><span class="nested-item">Nested item 1.1</span></li>
+                <li><span class="nested-item">Nested item 1.2</span></li>
+            </ul>
+        </li>
+        <li class="root-list-nested"><span>List item 2</span>
+            <ul id="list-item-2">
+                <li><span class="nested-item">Nested item 2.1</span></li>
+                <li><span class="nested-item">Nested item 2.2</span></li>
+                <ul id="nested-1">
+                    <li><span class="nested-item">Nested item 2.2.1</span></li>
+                    <li><span class="nested-item">Nested item 2.2.2</span></li>
+                    <ul id="nested-2">
+                        <li><span class="nested-item">Nested item 2.2.2.1</span></li>
+                        <li><span class="nested-item">Nested item 2.2.2.2</span></li>
+                    </ul>
+                    <li><span class="nested-item">Nested item 2.2.3</span></li>
+                </ul>
+                </li>
+                <li><span class="nested-item">Nested item  2.3</span></li>
+            </ul>
+        </li>
+        <li class="root-list-nested"><span>List item 3</span>
+            <ul id="list-item-3">
+                <li><span class="nested-item">Nested item 3.1</span></li>
+                <li><span class="nested-item">Nested item 3.1</span></li>
+                <li><span class="nested-item">Nested item 3.1</span></li>
+            </ul>
+        </li>
+    </ul>
+</main>
+<footer>
+    <button onclick="Bye()">Click for bye bye :)</button>
+</footer>
+</body>
+</html>

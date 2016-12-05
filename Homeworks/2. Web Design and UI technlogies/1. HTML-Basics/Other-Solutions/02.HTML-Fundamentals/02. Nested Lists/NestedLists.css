@@ -1,0 +1,64 @@
+body {
+    font-family: Cambria;
+    background-color: #fff0ff;
+}
+
+.root-list-nested:active li {
+    display: none;
+}
+
+button {
+    border-radius: 40%;
+    color: #ff0010;
+    background-color: #0ff010;
+    border-color: #800080;
+    font-size: 150%;
+    font-style: italic;
+}
+
+button:hover, li:hover, #title:hover {
+    cursor: pointer;
+}
+
+#title:active {
+    font-size: 70%;
+    color: #0000ff;
+}
+
+li:hover {
+    color: #ff0010;
+    text-decoration: underline;
+}
+
+#title {
+    padding-top: 1%;
+}
+
+#root {
+    list-style-type: upper-roman;
+    padding-left: 2%;
+}
+
+span {
+    padding-left: 2%;
+}
+
+.nested-item {
+    padding-left: 1%;
+}
+
+#list-item-1 {
+    list-style-type: lower-alpha;
+}
+
+#list-item-2 {
+    list-style-type: decimal;
+}
+
+#nested-1 {
+    list-style-type: circle;
+}
+
+#list-item-3 {
+    list-style-type: disc;
+}

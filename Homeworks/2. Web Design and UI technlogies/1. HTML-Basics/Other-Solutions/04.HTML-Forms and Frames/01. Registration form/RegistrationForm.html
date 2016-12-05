@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="RegistrationForm.css">
+</head>
+<body>
+<form name="reg-form" method="post" action="#">
+    <fieldset>
+        <table>
+            <tfoot>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear This Form">
+                </td>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+                <th>
+                    <label for="last-name">Last name</label>
+                </th>
+                <td>
+                    <input type="text" id="last-name" placeholder="Nakov" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="first-name">First name</label>
+                </th>
+                <td>
+                    <input type="text" id="first-name" placeholder="Svetlin" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="address">Address</label>
+                </th>
+                <td>
+                    <textarea id="address" placeholder="17 Hristo Botev Str. floor 3, apt. 12"
+                              required="required"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="city">City</label>
+                </th>
+                <td>
+                    <input type="text" id="city" placeholder="Kaspichan" required="required">
+                    <label for="state" id="statee">State</label>
+                    <input type="number" id="state" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="zip">Zip/Postal Code</label>
+                </th>
+                <td>
+                    <input type="number" id="zip" placeholder="9325" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="country">Country</label>
+                </th>
+                <td>
+                    <select id="country">
+                        <option value="one" selected="selected">Bulgaria</option>
+                        <option value="two">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="phone">Phone(country code, area code, number)</label>
+                </th>
+                <td>
+                    (+<input type="number" id="phone" placeholder="359" required="required">)
+                    <input type="number" id="phoneOther" placeholder="88" required="required"> -
+                    <input type="number" placeholder="8334343" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="email">E-mail</label></th>
+                <td>
+                    <input type="email" id="email" placeholder="nakov@kaspichan.org" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="birthDay">Birth date</label></th>
+                <td>
+                    <label for="birthDay">Month</label>
+                    <input type="number" id="birthDay" placeholder="06" required="required">
+                    <label for="day">Day</label>
+                    <input type="number" id="day" placeholder="14" required="required">
+                    <label for="year">Year(4 digit)</label>
+                    <input type="number" id="year" placeholder="1980" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="gender">Gender</label></th>
+                <td>
+                    <select id="gender">
+                        <option value="female">Female</option>
+                        <option value="male" selected="selected">Male</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="startingDate">Starting date</label></th>
+                <td>
+                    <input type="radio" id="startingDate" name="spring" checked="checked">
+                    <label for="startingDate">Spring 2006</label>
+                    <input type="radio" name="summer">
+                    <label for="startingDate">Summer 2006</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="comments">Comments/Questions</label></th>
+                <td>
+                    <textarea id="comments" placeholder="Please send me mor information about the logging."></textarea>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

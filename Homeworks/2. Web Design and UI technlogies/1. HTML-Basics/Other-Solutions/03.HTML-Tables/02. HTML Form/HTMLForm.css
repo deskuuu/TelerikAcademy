@@ -1,0 +1,27 @@
+body {
+    padding: 2%;
+    background-color: #e8a2c8;
+    color: #1095ad;
+}
+
+#legend {
+    font-weight: bold;
+    font-size: 130%;
+    color: #1995bd;
+}
+
+div {
+    padding: 0.09%;
+}
+
+span {
+    font-weight: bold;
+}
+
+input {
+    background-color: #e8a2c0;
+}
+
+#submit {
+    border-radius: 50%;
+}

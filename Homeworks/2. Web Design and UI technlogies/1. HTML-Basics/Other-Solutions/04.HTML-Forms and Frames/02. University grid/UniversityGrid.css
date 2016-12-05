@@ -1,0 +1,55 @@
+body {
+    font-family: "Times New Roman";
+    font-size: 100%;
+    color: #003A90;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #858585;
+    background-color: #f0ffff;
+    width: 50%;
+}
+
+tfoot nav {
+    margin-left: 2%;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #ff0000;
+    border-color: #688834;
+}
+
+tr, th, td {
+    border: 2px solid #618586;
+    padding: 0.8%;
+}
+
+th, tfoot {
+    background-color: #ffe4c4;
+}
+
+table .total {
+    font-weight: bold;
+}
+
+.poor {
+    background-color: #ff0000;
+}
+
+.fair {
+    background-color: #ff6343;
+}
+
+.good {
+    background-color: #9acd32;
+}
+
+.very-dood {
+    background-color: #adff2f;
+}
+
+.total {
+    background-color: #deb887;
+}

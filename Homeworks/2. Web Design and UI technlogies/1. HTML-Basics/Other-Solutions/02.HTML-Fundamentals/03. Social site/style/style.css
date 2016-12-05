@@ -1,0 +1,22 @@
+body {
+    background-color: #ADD8E6;
+    color: #751a75;
+}
+
+#withBorder {
+    border: 1px solid rebeccapurple;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+.infoFields{
+    font-weight: bold;
+}
+
+img{
+    padding-top: 2%;
+}
+
+dt{
+    font-style: italic;
+}

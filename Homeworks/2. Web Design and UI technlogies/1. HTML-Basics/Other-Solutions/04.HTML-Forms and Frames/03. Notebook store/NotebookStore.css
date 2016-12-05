@@ -1,0 +1,71 @@
+body {
+    font-family: "Times New Roman";
+    color: #a52a2a;
+    font-size: 130%;
+}
+
+#frame {
+    width: 80%;
+    border-radius: 2%;
+}
+
+#pcFrame, #frame {
+    border-color: #858588;
+}
+
+#pcFrame {
+    margin-top: 2%;
+}
+
+thead nav {
+    margin-left: 10%;
+    padding-bottom: 1%;
+}
+
+a {
+    color: #15B4F1;
+    text-decoration: underline;
+    font-size: 120%;
+}
+
+#nav {
+    border-bottom: 2px solid #858588;
+    width: 140%;
+}
+
+table {
+    border-radius: 2%;
+    border-width: 4px;
+}
+
+.ranges {
+    color: #00008b;
+}
+
+.ranges table {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+span {
+    color: #688834;
+    font-family: Aldhabi;
+    font-size: 200%;
+}
+
+legend, table {
+    color: #008080;
+}
+
+legend {
+    font-family: Verdana;
+}
+
+.parameters, fieldset {
+    background-color: #ffffff;
+}
