@@ -3,7 +3,7 @@
  */
 
 var arr = [1, 2, 3, 4, 5, 6, 7];
-var boolean = true;
+var booleann = true;
 var floatingPoint = 5.6;
 var integer = 6;
 var obj = {};
